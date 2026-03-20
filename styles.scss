@@ -1,3 +1,5 @@
+/*-- scss:defaults --*/
+
 @import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Manrope:wght@400;500;600;700&display=swap");
 
 :root {
@@ -11,6 +13,8 @@
   --site-border: rgba(22, 34, 29, 0.12);
   --site-shadow: 0 24px 70px rgba(22, 34, 29, 0.08);
 }
+
+/*-- scss:rules --*/
 
 body {
   color: var(--site-ink);

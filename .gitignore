@@ -2,3 +2,6 @@
 .quarto/
 _site/
 .sass-cache/
+
+/.quarto/
+**/*.quarto_ipynb
