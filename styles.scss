@@ -1,0 +1,235 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Manrope:wght@400;500;600;700&display=swap");
+
+:root {
+  --site-ink: #16221d;
+  --site-moss: #315443;
+  --site-sage: #8ea691;
+  --site-clay: #a86f3b;
+  --site-gold: #d5a04c;
+  --site-sand: #f5efe4;
+  --site-cream: #fcfaf5;
+  --site-border: rgba(22, 34, 29, 0.12);
+  --site-shadow: 0 24px 70px rgba(22, 34, 29, 0.08);
+}
+
+body {
+  color: var(--site-ink);
+  font-family: "Manrope", "Avenir Next", "Segoe UI", sans-serif;
+  background:
+    radial-gradient(circle at top left, rgba(213, 160, 76, 0.12), transparent 30%),
+    radial-gradient(circle at top right, rgba(49, 84, 67, 0.12), transparent 24%),
+    linear-gradient(180deg, #fbf8f1 0%, #f3ecdf 100%);
+}
+
+h1,
+h2,
+h3,
+h4,
+.navbar-title {
+  font-family: "Fraunces", Georgia, serif;
+  letter-spacing: -0.02em;
+}
+
+.navbar {
+  backdrop-filter: blur(14px);
+  background: rgba(252, 250, 245, 0.9);
+  border-bottom: 1px solid rgba(22, 34, 29, 0.08);
+}
+
+.navbar-brand,
+.navbar-title {
+  color: var(--site-ink) !important;
+}
+
+.nav-link,
+.aa-DetachedSearchButton {
+  font-weight: 600;
+}
+
+.quarto-title-banner {
+  background: transparent;
+  padding-bottom: 0.75rem;
+}
+
+.hero-shell {
+  display: grid;
+  grid-template-columns: minmax(0, 1.6fr) minmax(280px, 0.9fr);
+  gap: 1.5rem;
+  align-items: stretch;
+  margin: 1rem 0 2.5rem;
+}
+
+.hero-copy,
+.hero-card,
+.feature-card,
+.publication-entry {
+  background: rgba(252, 250, 245, 0.92);
+  border: 1px solid var(--site-border);
+  border-radius: 24px;
+  box-shadow: var(--site-shadow);
+}
+
+.hero-copy {
+  padding: 2.4rem;
+}
+
+.hero-copy h1 {
+  font-size: clamp(2.4rem, 5vw, 4.7rem);
+  line-height: 0.95;
+  margin-bottom: 1rem;
+}
+
+.hero-card {
+  padding: 1.6rem 1.5rem;
+  background:
+    linear-gradient(180deg, rgba(49, 84, 67, 0.98) 0%, rgba(29, 56, 44, 0.98) 100%);
+  color: #f6f0e6;
+}
+
+.hero-card h2,
+.hero-card h3,
+.hero-card strong {
+  color: #fff5df;
+}
+
+.eyebrow {
+  color: var(--site-clay);
+  font-size: 0.82rem;
+  font-weight: 800;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  margin-bottom: 0.9rem;
+}
+
+.cta-row,
+.pill-row,
+.feature-grid,
+.contact-grid,
+.publication-stack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.85rem;
+}
+
+.cta-row {
+  margin: 1.5rem 0 1rem;
+}
+
+.btn-hero,
+.btn-primary {
+  background: linear-gradient(135deg, var(--site-clay), var(--site-gold));
+  border: none;
+  color: #fffdf9;
+}
+
+.btn-hero:hover,
+.btn-primary:hover,
+.btn-hero:focus,
+.btn-primary:focus {
+  background: linear-gradient(135deg, #915927, #c98a30);
+  color: #fffdf9;
+}
+
+.btn-outline-primary,
+.btn-outline-secondary {
+  border-width: 1.5px;
+}
+
+.pill-row code {
+  background: rgba(49, 84, 67, 0.08);
+  color: var(--site-moss);
+  border-radius: 999px;
+  padding: 0.5rem 0.8rem;
+  font-size: 0.92rem;
+}
+
+.feature-grid,
+.contact-grid {
+  margin: 1.25rem 0 2rem;
+}
+
+.feature-card {
+  flex: 1 1 250px;
+  padding: 1.2rem 1.2rem 1rem;
+}
+
+.feature-card h3 {
+  font-size: 1.25rem;
+  margin-bottom: 0.6rem;
+}
+
+.publication-stack {
+  flex-direction: column;
+  margin: 1rem 0 2rem;
+}
+
+.publication-entry {
+  padding: 1.1rem 1.25rem;
+}
+
+.publication-entry h4 {
+  margin-bottom: 0.55rem;
+}
+
+.listing-grid .quarto-grid-item,
+.quarto-listing-container-grid .card {
+  border-radius: 24px;
+  border: 1px solid var(--site-border);
+  box-shadow: var(--site-shadow);
+  overflow: hidden;
+}
+
+.listing-grid .card-title,
+.quarto-listing .card-title {
+  font-family: "Fraunces", Georgia, serif;
+}
+
+.pdf-frame {
+  background: rgba(252, 250, 245, 0.95);
+  border: 1px solid var(--site-border);
+  border-radius: 24px;
+  box-shadow: var(--site-shadow);
+  overflow: hidden;
+  min-height: 80vh;
+}
+
+.pdf-frame iframe {
+  width: 100%;
+  min-height: 80vh;
+  border: 0;
+}
+
+.page-link,
+a {
+  text-underline-offset: 0.18em;
+}
+
+.page-footer {
+  border-top: 1px solid rgba(22, 34, 29, 0.1);
+  background: rgba(252, 250, 245, 0.72);
+}
+
+@media (max-width: 900px) {
+  .hero-shell {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-copy {
+    padding: 1.7rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .hero-copy h1 {
+    font-size: 2.5rem;
+  }
+
+  .feature-card,
+  .publication-entry {
+    padding: 1rem;
+  }
+
+  .cta-row .btn {
+    width: 100%;
+  }
+}

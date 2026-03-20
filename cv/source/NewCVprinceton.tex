@@ -1,0 +1,188 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% CV (Academic) — revised structure + cleaned content
+% Uses resume.cls (same as your current Overleaf setup)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass{resume}
+
+% -------------------- Packages --------------------
+\usepackage[hidelinks]{hyperref}
+\usepackage{url}
+\usepackage{multicol}
+\usepackage[left=0.5in,top=0.6in,right=0.5in,bottom=0.6in]{geometry}
+
+% Optional (keeps URLs from overflowing)
+\sloppy
+
+% -------------------- Header --------------------
+\name{NAKUL WEWHARE}
+
+% NOTE: resume.cls sometimes renders \address on a single line.
+% The most reliable way is to use multiple \address commands (one per line).
+\address{%
+\href{mailto:nakul@princeton.edu}{nakul@princeton.edu} \;\textbullet\;
++1 (609) 255-3916}
+\address{%
+Princeton University, Dept.\ of Ecology \& Evolutionary Biology (EEB)}
+\address{%
+\href{https://scholar.google.com/citations?user=T08iq_UAAAAJ&hl=en}{Google Scholar} \;\textbullet\;
+\href{https://github.com/Nakul-wewhare}{GitHub}}
+
+\begin{document}
+
+% -------------------- Research focus --------------------
+\begin{rSection}{Research Focus}
+Bioacoustics and animal communication, with an emphasis on (i) Vocal labeling/matching of others in animals, (ii) role vocal communication in social cordination and coperation (iii) vocal sequences and syntax structure. 
+\end{rSection}
+
+% -------------------- Education --------------------
+\begin{rSection}{Education}
+{\bf Princeton University} \hfill {\em Sep 2025 -- Present}\\
+Ph.D. Student, Department of Ecology \& Evolutionary Biology (EEB)\\
+Advisor: Dr.\ Gerald G.\ Carter
+
+{\bf Indian Institute of Science Education and Research (IISER) Pune} \hfill {\em Aug 2020 -- May 2025}\\
+BS--MS Dual Degree (Biology major) \hfill \\
+M.S.\ thesis: \textit{Social network dynamics of budgerigars and their influence on vocal learning}\\
+Advisor: Dr.\ Anand Krishnan
+\end{rSection}
+
+% -------------------- Publications --------------------
+\begin{rSection}{Publications}
+\item {\bf Wewhare, N.} \& Krishnan, A.\ (2024).
+{\bf Individual-specific associations between warble song notes and body movements in budgerigar courtship displays.}
+\textit{Biology Open}. https://doi.org/10.1242/bio.060497\\
+{\small Cover feature; lead-author interview in the \textit{First Person} series:
+\href{https://journals.biologists.com/bio/article/13/10/bio061701/362431/First-person-Nakul-Wewhare}{bio061701}.}
+
+\item Madabhushi, A.\ J.\ J., {\bf Wewhare, N.}, Binwal, P., Agarwal, V., \& Krishnan, A.\ (2023).
+{\bf Higher-order dialect variation and syntactic convergence in the complex warble song of budgerigars.}
+\textit{Journal of Experimental Biology}, 226(20): jeb245678. https://doi.org/10.1242/jeb.245678
+
+\item {\bf Wewhare, N.} \& Pandey, U.\ (2021).
+{\bf First record of scavenging by a checkered keelback (\textit{Fowlea piscator}) from Western Maharashtra, India.}
+\textit{Reptiles \& Amphibians}, 28(2), 348--349. https://doi.org/10.17161/randa.v28i2.15638
+\end{rSection}
+
+\begin{rSection}{Preprints}
+
+\item {\bf Wewhare, N.}, Burkart, J.\ M., \& Wierucka, K.
+{\bf Sequence-level vocal convergence in a social primate.}
+In preparation.
+
+\item Dhati, A.\ M., {\bf Wewhare, N.}, Devasthale, N.\ S., Sundar, S., Parulekar, N., \& Krishnan, A.\ (2025).
+{\bf Vocal sequences of diverse parrots suggest an important role for note repetition.}
+\textit{bioRxiv}. https://doi.org/10.1101/2025.10.24.684295
+\end{rSection}
+
+% -------------------- Talks & Posters --------------------
+\begin{rSection}{Conferences and Workshops}
+\item {\bf Bioacoustics \& AI 101: Making AI Accessible to Everybody} \\
+Organized by the Behavioural Ecology group, University of Copenhagen. Sep 2024 (online).\\
+{\it Contributed talk:} {\bf Quantifying syntactic convergence in common marmoset vocal sequences.}
+\href{https://www.youtube.com/watch?v=bZplC_TDW1M}{(Recording)}
+
+\item {\bf 5th Conference of the Indian Society of Evolutionary Biologists (ISEB)} \\
+Organized by the Indian Society of Evolutionary Biologists at Lucknow University. Oct 2024.\\
+{\it Poster:} {\bf Individual-specific associations between warble song notes and body movements in budgerigar courtship displays.}
+
+\item {\bf Winter School on Evolutionary Game Theory} \\
+Organized by the Department of Mathematics, Shiv Nadar University, Delhi. Dec 2023.
+
+\item {\bf 4th Conference of the Indian Society of Evolutionary Biologists (ISEB)} \\
+Organized by the Indian Society of Evolutionary Biologists at Ahmedabad University. Dec 2022.
+\end{rSection}
+
+% -------------------- Research experience --------------------
+\begin{rSection}{Research Experience}
+\begin{rSubsection}{Master's thesis student}{\href{https://sites.google.com/view/eceb-lab}{ECEB Lab, EOBU, JNCSAR}}{Supervisor: Dr.\ Anand Krishnan}{May 2024 -- Present}
+\item Designed and ran fission--fusion experiments in lab budgerigar colonies to test how social-network position predicts longitudinal change in vocal repertoires.
+\item Built interaction- and association-based social networks from (i) manual behavioural observations and (ii) automated video capture using a multi-camera Raspberry Pi setup.
+\item Linking network-derived predictors to multi-level acoustic features of warble song (note-, motif-, and sequence-level structure) to quantify social effects on vocal learning.
+\end{rSubsection}
+
+\begin{rSubsection}{Undergraduate researcher}{\href{https://www.dpz.eu/en/contact/staff/profile/person/kaja-wierucka.html}{Behavioral Ecology \& Sociobiology Unit, German Primate Center}}{Supervisor: Dr.\ Kaja Wierucka}{Dec 2023 -- Apr 2024}
+\item Developed a sequence-comparison approach for marmoset vocal sequences inspired by bioinformatics-style alignment to quantify syntactic convergence.
+\item Quantified vocal accommodation at multiple scales: sequence-level syntax and note-level spectral structure (MFCC-based features).
+\item Found separable encoding: individual identity in spectral call features and dyad identity in sequence-level structure.
+\end{rSubsection}
+
+\begin{rSubsection}{Semester project student}{\href{https://raghavrajan.wixsite.com/rajanlab}{Rajan Lab, IISER Pune}}{PI: Dr.\ Raghav Rajan}{Aug 2023 -- Dec 2023}
+\item Built an automated microcontroller-based training setup for zebra finches to sing in a delay-instructed paradigm, separating preparation from production.
+\item Assisted with electrophysiological recordings across song-related nuclei and downstream analysis of preparatory activity.
+\end{rSubsection}
+
+\begin{rSubsection}{MITACS Globalink summer intern}{\href{https://sites.psych.ualberta.ca/animal-cognition-ualberta/}{Animal Cognition Research Group, University of Alberta}}{PI: Dr.\ Lauren Guillette}{May 2023 -- Aug 2023}
+\item Conducted behavioural experiments and analysis to quantify zebra finch activity and personality-linked information use during nest building.
+\item Built a DeepLabCut-based video scoring pipeline; trained a general zebra finch model to support future experiments.
+\item Implemented automated tracking workflows using AnimalTA for scalable behavioural quantification.
+\end{rSubsection}
+
+\begin{rSubsection}{Winter project student}{\href{https://knpsi.in/about.php}{Indore Zoo and ECEB Lab, IISER Bhopal}}{PI: Dr.\ Anand Krishnan}{Dec 2022 -- May 2023}
+\item Recorded and analysed vocal sequences of parrots (\textit{Psittacula, Agapornis, Melopsittacus, Trichoglossus}) at the Indore Zoo.
+\item Conducted cross-species comparative analyses of syntactic structure in complex vocal sequences.
+\item Developed a semi-Markov model to describe sequential vocal structure across genera.
+\end{rSubsection}
+
+\begin{rSubsection}{Semester project student}{\href{https://sites.google.com/view/eceb-lab}{ECEB Lab, IISER Bhopal}}{PI: Dr.\ Anand Krishnan}{Aug 2022 -- Aug 2023}
+\item Quantified relationships between budgerigar courtship displays and warble-song syntax, testing generality and individual variability.
+\item Modelled courtship behaviour and vocal sequences using HMMs and deep sequence models (LSTMs; seq2seq).
+\end{rSubsection}
+
+\begin{rSubsection}{Summer intern}{\href{https://sites.google.com/view/eceb-lab}{Ecological, Community and Evolutionary Bioacoustics (ECEB Lab), IISER Bhopal}}{PI: Dr.\ Anand Krishnan}{Jun 2022 -- Aug 2022}
+\item Analysed warble-song syntax to identify higher-order dialect differences across colonies.
+\item Tested convergence in syntactic structure following colony fusion using longitudinal recordings.
+\end{rSubsection}
+
+\begin{rSubsection}{Undergraduate researcher}{\href{https://sites.google.com/view/doglabiiserkolkata/home}{Dog Lab, IISER Kolkata}}{PI: Dr.\ Anindita Bhadra}{Dec 2021 -- May 2022}
+\item Recorded and analysed free-ranging dog acoustic interactions in the field (continuous sampling over multiple contexts).
+\item Analysed vocalisations for context-dependent functional referencing; designed and ran playback experiments to quantify receiver discrimination.
+\end{rSubsection}
+
+\begin{rSubsection}{Summer intern}{\href{https://sites.google.com/view/doglabiiserkolkata/home}{Dog Lab, IISER Kolkata}}{PI: Dr.\ Anindita Bhadra}{Aug 2021 -- Dec 2021}
+\item Designed and ran field experiments testing olfactory vs.\ visual cues during food scavenging and how human interactions shape decision-making.
+\end{rSubsection}
+\end{rSection}
+
+% -------------------- Awards & fellowships --------------------
+\begin{rSection}{Awards \& Fellowships}
+\item {\bf Kishore Vaigyanik Protsahan Yojana (KVPY) SX Fellowship} \hfill {\em 2020 -- 2025}\\
+Government of India fellowship supporting research-oriented students during pre-PhD training.
+
+\item {\bf MITACS Globalink Research Internship Fellowship} \hfill {\em Summer 2023}\\
+Competitive 12-week research internship at a Canadian university under faculty supervision.
+\end{rSection}
+
+% -------------------- Academic service --------------------
+\begin{rSection}{Academic Service}
+\item Co-reviewer (with Dr.\ Anand Krishnan), \textit{Proceedings of the Royal Society B} (2024).
+\end{rSection}
+
+% -------------------- Selected coursework (compressed) --------------------
+\begin{rSection}{Selected Coursework}
+Quantative: Bayesian inference; causal inference; network algorithms; parameter estimation and inverse theory; numerical computation; non-linear dynamics; bioinformatics; 
+Biology: advanced evolution, ecology 1 and 2, animal behaviour, comparitive physilogy, developmental biology, nueroscince 1 and 2.
+maths: linear algebra, multivarite calclus, probablity, partial differential equations, ordinary differenatial equations, graph thoery. 
+\end{rSection}
+
+% -------------------- Technical skills (tight + defensible) --------------------
+\begin{rSection}{Technical Skills}
+\item {\bf Programming:} Python, R, MATLAB
+\item {\bf Bioacoustics:} Raven Pro; warbleR; MFCC, spectral feature extraction; sequence/syntax analysis, DTW, UMAP
+\item {\bf Quantitative:} GLMMs; Bayesian modelling; causal inference, network analysis; Agent based simulations
+\item {\bf ML (applied):} HMMs; LSTM/seq2seq models, Varaitonal auto encoders (VAE), image based segmentation methods. 
+\item {\bf Hardware/field systems:} Raspberry Pi multi-camera setups; Arduino/microcontrollers
+\end{rSection}
+
+% -------------------- Languages (kept) --------------------
+\begin{rSection}{Languages}
+English (TOEFL iBT 109/120), Hindi, Marathi
+\end{rSection}
+
+% -------------------- Extracurriculars (optional; shortened) --------------------
+\begin{rSection}{Outreach \& Extracurricular }
+\item Volunteer, Disha (teaching underprivileged children): mentored 5 students (ages 8--15) in math, science, and English (two years).
+\item Photography Club Coordinator (2021--2022); Photographer for institute events (2022--2023).
+\end{rSection}
+
+\end{document}

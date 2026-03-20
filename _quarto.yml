@@ -1,0 +1,49 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Animal Chatter"
+  site-url: https://animalchatter.org
+  description: "Academic website for Nakul Wewhare: animal communication, bioacoustics, vocal learning, and research notes."
+  navbar:
+    pinned: true
+    left:
+      - href: index.qmd
+        text: Home
+      - href: research/index.qmd
+        text: Research
+      - href: publications/index.qmd
+        text: Publications
+      - href: blog/index.qmd
+        text: Blog
+      - href: cv/index.qmd
+        text: CV
+      - href: contact.qmd
+        text: Contact
+    right:
+      - icon: github
+        href: https://github.com/Nakul-wewhare
+      - text: Scholar
+        href: https://scholar.google.com/citations?user=T08iq_UAAAAJ&hl=en
+  search: true
+  page-footer:
+    left: "Animal communication, vocal learning, and social behaviour."
+    right: "Built with [Quarto](https://quarto.org) and deployed on GitHub Pages."
+
+format:
+  html:
+    theme:
+      light: [litera, styles.scss]
+    toc: true
+    toc-depth: 3
+    code-copy: true
+    smooth-scroll: true
+    link-external-newwindow: true
+    grid:
+      sidebar-width: "250px"
+      body-width: "1080px"
+      margin-width: "220px"
+
+execute:
+  freeze: auto

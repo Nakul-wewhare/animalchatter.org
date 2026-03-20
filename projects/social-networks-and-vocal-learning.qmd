@@ -1,0 +1,23 @@
+---
+title: Social Networks and Vocal Learning in Budgerigars
+description: "A thesis project on how fission-fusion social structure predicts longitudinal change in vocal repertoires."
+date: 2025-03-01
+categories: [budgerigars, vocal learning, social networks]
+toc: true
+---
+
+## Core Question
+
+How does social position influence what individuals learn, repeat, and retain in their vocal repertoires over time?
+
+## Approach
+
+This project combines controlled colony experiments, manual behavioural observations, automated video capture, and acoustic analysis to connect shifting social relationships with changes in warble song structure.
+
+## Why It Matters
+
+Budgerigars offer a powerful system for asking how vocal learning unfolds inside real social networks rather than in isolated pairs. The broader goal is to understand how communication systems change when social worlds change.
+
+## Current Direction
+
+The thesis focuses on fission-fusion experiments in lab colonies and links network-derived predictors to acoustic structure at note, motif, and sequence levels.

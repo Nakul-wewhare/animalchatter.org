@@ -1,0 +1,15 @@
+---
+title: Blog
+page-layout: full
+toc: false
+listing:
+  contents: posts
+  sort: "date desc"
+  type: default
+  feed: true
+  categories: true
+  fields: [title, description, date, categories]
+  sort-ui: false
+---
+
+This section is for short writing: research notes, paper explainers, field or lab updates, and occasional thoughts about animal communication methods.

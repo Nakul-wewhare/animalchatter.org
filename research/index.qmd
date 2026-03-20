@@ -1,0 +1,16 @@
+---
+title: Research
+page-layout: full
+toc: false
+listing:
+  contents: ../projects/*.qmd
+  sort: "date desc"
+  type: grid
+  fields: [title, description, categories]
+  max-description-length: 180
+  sort-ui: false
+---
+
+My research asks how complex vocal behaviour is shaped by learning, social structure, and interaction. I work across birds and primates, combining behavioural observation, acoustic analysis, quantitative modeling, and experimental design.
+
+The project pages below are written to be readable both for collaborators in neighbouring fields and for visitors who are encountering this work for the first time.

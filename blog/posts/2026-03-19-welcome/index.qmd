@@ -1,0 +1,13 @@
+---
+title: Launching Animal Chatter
+description: "A short note on what this website is for and what will appear here."
+date: 2026-03-19
+categories: [website, research notes]
+toc: false
+---
+
+This site is a home for my research on animal communication, bioacoustics, and vocal sequence structure.
+
+I wanted one place where papers, ongoing work, short explanations, and a current CV are easy to find without sending people through several different links.
+
+Over time, I plan to use the blog for short research notes, pointers to new papers, and writing that sits somewhere between a lab notebook and a public-facing article.

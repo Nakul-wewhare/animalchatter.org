@@ -1,0 +1,34 @@
+---
+title: Contact
+page-layout: full
+toc: false
+---
+
+If you would like to get in touch about research, collaboration, or questions about the work on this site, these are the best places to reach me.
+
+::: {.contact-grid}
+::: {.feature-card}
+### Email
+
+[nakul@princeton.edu](mailto:nakul@princeton.edu)
+:::
+
+::: {.feature-card}
+### Google Scholar
+
+[Scholar profile](https://scholar.google.com/citations?user=T08iq_UAAAAJ&hl=en)
+:::
+
+::: {.feature-card}
+### GitHub
+
+[github.com/Nakul-wewhare](https://github.com/Nakul-wewhare)
+:::
+
+::: {.feature-card}
+### Affiliation
+
+Princeton University  
+Department of Ecology and Evolutionary Biology
+:::
+:::

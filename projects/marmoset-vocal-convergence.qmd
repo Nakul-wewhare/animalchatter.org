@@ -1,0 +1,23 @@
+---
+title: Sequence-Level Vocal Convergence in Common Marmosets
+description: "A primate project using sequence-comparison methods to test whether dyads converge on shared vocal structure."
+date: 2024-04-01
+categories: [marmosets, syntax, vocal accommodation]
+toc: true
+---
+
+## Core Question
+
+Do social partners converge not only in the sound of individual calls, but also in the larger sequence structure of their vocal exchanges?
+
+## Approach
+
+This work develops a sequence-comparison framework inspired by bioinformatics-style alignment, then combines it with note-level spectral measurements to test for multiple layers of vocal accommodation.
+
+## What Emerged
+
+The project points to separable forms of encoding: individual identity in spectral call features and dyad identity in sequence-level structure.
+
+## Broader Goal
+
+The larger ambition is to move beyond single-call analysis and treat vocal sequences as structured social behaviour in their own right.

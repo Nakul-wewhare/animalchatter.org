@@ -1,0 +1,63 @@
+---
+title: Publications
+page-layout: full
+toc: false
+---
+
+This page collects published papers, preprints, and a few ongoing lines of work. As the site grows, I will add code, slides, and supplementary material where available.
+
+## Peer-Reviewed Articles
+
+::: {.publication-stack}
+::: {.publication-entry}
+#### Wewhare, N. and Krishnan, A. (2024)
+
+**Individual-specific associations between warble song notes and body movements in budgerigar courtship displays.**  
+*Biology Open*.  
+[DOI](https://doi.org/10.1242/bio.060497) | [First Person interview](https://journals.biologists.com/bio/article/13/10/bio061701/362431/First-person-Nakul-Wewhare)
+
+This paper studies how vocal and body-movement elements align during budgerigar courtship and asks how consistent those associations are across individuals.
+:::
+
+::: {.publication-entry}
+#### Madabhushi, A. J. J., Wewhare, N., Binwal, P., Agarwal, V., and Krishnan, A. (2023)
+
+**Higher-order dialect variation and syntactic convergence in the complex warble song of budgerigars.**  
+*Journal of Experimental Biology*, 226(20): jeb245678.  
+[DOI](https://doi.org/10.1242/jeb.245678)
+
+This study examines dialect variation and convergence in complex warble song, with attention to higher-order sequence structure.
+:::
+
+::: {.publication-entry}
+#### Wewhare, N. and Pandey, U. (2021)
+
+**First record of scavenging by a checkered keelback (*Fowlea piscator*) from Western Maharashtra, India.**  
+*Reptiles & Amphibians*, 28(2), 348-349.  
+[DOI](https://doi.org/10.17161/randa.v28i2.15638)
+:::
+:::
+
+## Preprints and Work in Progress
+
+::: {.publication-stack}
+::: {.publication-entry}
+#### Dhati, A. M., Wewhare, N., Devasthale, N. S., Sundar, S., Parulekar, N., and Krishnan, A. (2025)
+
+**Vocal sequences of diverse parrots suggest an important role for note repetition.**  
+*bioRxiv*.  
+[Preprint](https://doi.org/10.1101/2025.10.24.684295)
+:::
+
+::: {.publication-entry}
+#### Wewhare, N., Burkart, J. M., and Wierucka, K.
+
+**Sequence-level vocal convergence in a social primate.**  
+In preparation.
+:::
+:::
+
+## Talks and Workshops
+
+- **Quantifying syntactic convergence in common marmoset vocal sequences**, contributed talk at *Bioacoustics & AI 101: Making AI Accessible to Everybody* (University of Copenhagen, September 2024). [Recording](https://www.youtube.com/watch?v=bZplC_TDW1M)
+- Poster on budgerigar courtship displays at the *5th Conference of the Indian Society of Evolutionary Biologists* (October 2024).

@@ -1,0 +1,40 @@
+---
+title: CV
+page-layout: full
+toc: false
+---
+
+::: {.cta-row}
+[Download PDF CV](Nakul_Wewhare_CV.pdf){.btn .btn-primary .btn-hero}
+[Research overview](../research/){.btn .btn-outline-primary}
+:::
+
+## Snapshot
+
+::: {.feature-grid}
+::: {.feature-card}
+### Current Position
+
+PhD student in Ecology and Evolutionary Biology at Princeton University, working on animal communication, vocal learning, and sequence structure.
+:::
+
+::: {.feature-card}
+### Core Areas
+
+Bioacoustics, animal communication, social behaviour, network analysis, quantitative modeling, and applied machine learning for behavioural data.
+:::
+
+::: {.feature-card}
+### Tools
+
+Python, R, MATLAB, Raven Pro, warbleR, GLMMs, Bayesian modeling, HMMs, sequence models, and Raspberry Pi based recording systems.
+:::
+:::
+
+## Full CV
+
+```{=html}
+<div class="pdf-frame">
+  <iframe src="Nakul_Wewhare_CV.pdf" title="Nakul Wewhare CV"></iframe>
+</div>
+```

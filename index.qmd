@@ -1,0 +1,101 @@
+---
+title: ""
+page-layout: full
+toc: false
+---
+
+::: {.hero-shell}
+::: {.hero-copy}
+::: {.eyebrow}
+Animal Chatter
+:::
+
+# Nakul Wewhare
+
+I am a PhD student in Ecology and Evolutionary Biology at Princeton University studying how animals learn, structure, and use vocal signals in social life.
+
+My work sits at the intersection of bioacoustics, animal communication, vocal learning, and social behaviour. I am especially interested in how vocal sequences encode identity, social relationships, and coordination.
+
+::: {.cta-row}
+[Explore research](research/){.btn .btn-primary .btn-hero}
+[Download CV](cv/Nakul_Wewhare_CV.pdf){.btn .btn-outline-primary}
+[Email me](mailto:nakul@princeton.edu){.btn .btn-outline-secondary}
+:::
+
+::: {.pill-row}
+`bioacoustics`
+`animal communication`
+`vocal learning`
+`social networks`
+`sequence structure`
+:::
+:::
+
+::: {.hero-card}
+## Current Base
+
+Princeton University  
+Department of Ecology and Evolutionary Biology
+
+## Research Themes
+
+- Vocal labeling and matching of others
+- Social coordination and cooperation
+- Vocal sequences and syntax structure
+
+## On This Site
+
+Papers, project summaries, short writing, contact details, and a downloadable CV.
+:::
+:::
+
+## Featured Work
+
+::: {.feature-grid}
+::: {.feature-card}
+### [Social Networks and Vocal Learning in Budgerigars](projects/social-networks-and-vocal-learning.qmd)
+
+My master's thesis asks how fission-fusion dynamics and social-network position shape changes in vocal repertoires through time.
+:::
+
+::: {.feature-card}
+### [Sequence-Level Vocal Convergence in Common Marmosets](projects/marmoset-vocal-convergence.qmd)
+
+This project develops sequence-comparison methods to quantify syntactic convergence and accommodation in a social primate.
+:::
+
+::: {.feature-card}
+### [Parrot Vocal Sequences Across Species](projects/parrot-vocal-sequences.qmd)
+
+Comparative work on parrots explores repetition, sequence structure, and higher-order organization in complex vocal displays.
+:::
+:::
+
+## Selected Publications
+
+::: {.publication-stack}
+::: {.publication-entry}
+#### Individual-specific associations between warble song notes and body movements in budgerigar courtship displays
+
+*Biology Open* (2024), with Anand Krishnan.  
+[Paper](https://doi.org/10.1242/bio.060497) and [First Person interview](https://journals.biologists.com/bio/article/13/10/bio061701/362431/First-person-Nakul-Wewhare).
+:::
+
+::: {.publication-entry}
+#### Higher-order dialect variation and syntactic convergence in the complex warble song of budgerigars
+
+*Journal of Experimental Biology* (2023), with A. J. J. Madabhushi, P. Binwal, V. Agarwal, and Anand Krishnan.  
+[Paper](https://doi.org/10.1242/jeb.245678).
+:::
+:::
+
+## What You Can Use This Site For
+
+- Browse research projects without digging through a CV.
+- Find publication links quickly.
+- Follow short blog posts and research notes.
+- Download a current PDF CV.
+
+## Start Here
+
+If you are new to my work, the best places to begin are the [research page](research/), the [publications page](publications/), and the [blog](blog/).
