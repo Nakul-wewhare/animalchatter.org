@@ -1,0 +1,59 @@
+---
+title: "[A specific, inviting title]"
+description: "[One sentence: where, what, and why it matters]"
+date: YYYY-MM-DD
+categories: [field note, PLACE, TOPIC]
+image: featured.jpg
+toc: true
+draft: true
+---
+
+::: {.note-chip .note-chip--field}
+Field Note
+:::
+
+[Open with one concrete moment, sound, animal, challenge, or surprise. Give a
+reader a reason to enter the story before explaining all of the background.]
+
+::: {.media-frame .media-frame--landscape}
+![Describe what is visible and relevant in the photograph.](featured.jpg){.media-frame__asset}
+
+::: {.media-frame__caption}
+[What the reader should notice.] [Photograph: NAME, if needed.]{.media-frame__credit}
+:::
+:::
+
+## Where I was and why
+
+[Place the field season in context without revealing sensitive species or nest
+locations. What question brought you there? Who were you working with?]
+
+## A field day
+
+[Walk through the work in concrete terms: equipment, decisions, waiting,
+adjustments, and the lived experience behind the data.]
+
+## What I noticed
+
+[Describe an observation or pattern. Clearly separate an impression from a
+tested result.]
+
+## What changed in my thinking
+
+[What did the fieldwork complicate, sharpen, or make newly interesting?]
+
+## What happens next
+
+[Describe the next practical or scientific step. Link to the related project.]
+
+::: {.collaboration-cta}
+::: {.collaboration-cta__content}
+## A question I would like to discuss
+
+[Name one real question where another perspective would be useful.]
+:::
+
+::: {.collaboration-cta__actions}
+[Contact me](../../../contact.qmd){.btn .btn-primary}
+:::
+:::

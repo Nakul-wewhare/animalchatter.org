@@ -1,5 +1,5 @@
 ---
-title: Blog
+title: Blog Archive
 page-layout: full
 toc: false
 listing:
@@ -12,4 +12,6 @@ listing:
   sort-ui: false
 ---
 
-This section is for short writing: research notes, paper explainers, field or lab updates, and occasional thoughts about animal communication methods.
+The blog has grown into [Notes](../notes/): a public research notebook for field stories, project updates, reading syntheses, methods notes, and tool releases.
+
+This archive remains available so existing bookmarks and links continue to work. New entries appear here as well as on the Notes page.

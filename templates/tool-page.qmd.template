@@ -1,0 +1,72 @@
+---
+title: "[Tool name]"
+description: "[The problem this tool solves, in one sentence]"
+page-layout: full
+toc: true
+draft: true
+---
+
+::: {.status-badge .status-badge--developing}
+[Experimental / Stable / Archived]
+:::
+
+[A short explanation of what the tool does and who it is for.]
+
+::: {.cta-row}
+[Source code](REPOSITORY-URL){.btn .btn-primary}
+[Report a problem](ISSUES-URL){.btn .btn-outline-primary}
+:::
+
+## The research problem
+
+[What question or bottleneck motivated this tool? When should someone use it?]
+
+## What it does
+
+- [Capability]
+- [Capability]
+- [Important non-goal]
+
+## Install
+
+```bash
+# Replace with a tested installation command
+```
+
+## Small working example
+
+```python
+# Use small, shareable demonstration data and tested code.
+```
+
+[Explain what the output means, not only how to produce it.]
+
+## Status and limitations
+
+- **Status:** [Experimental / Stable / Archived]
+- **Version:** [Version or commit]
+- **Last meaningful update:** [YYYY-MM-DD]
+- **Known limitations:** [List]
+- **Data considerations:** [Privacy, sensitivity, or scale constraints]
+
+## Licence and citation
+
+- **Licence:** [Choose and add an actual software licence before release]
+- **Citation:** [Citation text, CITATION.cff link, or DOI]
+
+## Work together
+
+[Explain what kinds of scientific questions, improvements, or collaborations
+would be especially welcome.]
+
+::: {.collaboration-cta}
+::: {.collaboration-cta__content}
+## Have a related use case?
+
+[Ask for examples, edge cases, ideas, or collaboration relevant to this tool.]
+:::
+
+::: {.collaboration-cta__actions}
+[Contact me](../../../contact.qmd){.btn .btn-primary}
+:::
+:::

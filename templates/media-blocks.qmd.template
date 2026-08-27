@@ -1,0 +1,89 @@
+MEDIA BLOCKS FOR ANIMAL CHATTER
+
+Copy one block at a time into a `.qmd` page and replace every instruction in
+square brackets. Never publish an iframe whose source or data should remain
+private.
+
+
+PHOTO WITH CAPTION
+------------------
+
+::: {.media-frame .media-frame--landscape}
+![Describe the content and purpose of the image.](images/FILENAME.jpg){.media-frame__asset}
+
+::: {.media-frame__caption}
+[What to notice.] [Photograph: NAME, if needed.]{.media-frame__credit}
+:::
+:::
+
+
+SHORT SILENT VIDEO LOOP
+-----------------------
+
+```{=html}
+<figure class="media-frame media-frame--landscape">
+  <video class="media-frame__asset" muted loop playsinline controls
+    poster="images/POSTER.jpg"
+    aria-label="[Describe the video and what it demonstrates]">
+    <source src="video/FILENAME.webm" type="video/webm">
+    <source src="video/FILENAME.mp4" type="video/mp4">
+  </video>
+  <figcaption class="media-frame__caption">
+    [What the reader should watch for.]
+    <span class="media-frame__credit">[Video: NAME, if needed.]</span>
+  </figcaption>
+</figure>
+```
+
+Keep controls available even for loops. Avoid sound on autoplaying video.
+
+
+INTERACTIVE HTML FIGURE
+-----------------------
+
+::: {.interactive-figure}
+::: {.interactive-figure__header}
+### [Figure title]
+
+[One sentence telling the reader what to explore.]
+:::
+
+::: {.interactive-figure__stage}
+```{=html}
+<iframe src="figures/FIGURE/index.html"
+  title="[Accessible title describing the interactive figure]"
+  loading="lazy"></iframe>
+```
+:::
+
+::: {.interactive-figure__caption}
+[Sample, variables, interaction instructions, interpretation, and caveats.]
+:::
+:::
+
+
+AUDIO AND SPECTROGRAM
+---------------------
+
+::: {.audio-viz}
+::: {.audio-viz__stage}
+![Spectrogram showing DESCRIPTION.](audio/FILENAME-spectrogram.jpg){.audio-viz__waveform}
+:::
+
+::: {.audio-viz__player}
+### [Interaction or call title]
+
+```{=html}
+<audio controls preload="metadata">
+  <source src="audio/FILENAME.mp3" type="audio/mpeg">
+  <source src="audio/FILENAME.ogg" type="audio/ogg">
+  Your browser does not support embedded audio.
+</audio>
+```
+
+::: {.audio-viz__caption}
+[Tell the listener what to notice, identify any annotations, and provide the
+recording context without disclosing a sensitive location.]
+:::
+:::
+:::

@@ -1,0 +1,64 @@
+---
+title: Notes
+description: "Field stories, project updates, reading syntheses, methods notes, and open work from Animal Chatter."
+page-layout: full
+toc: false
+listing:
+  contents: ../blog/posts/*/index.qmd
+  sort: "date desc"
+  type: grid
+  feed: true
+  categories: true
+  fields: [image, title, description, date, categories]
+  sort-ui: false
+---
+
+::: {.eyebrow}
+A public research notebook
+:::
+
+This is where field experiences, active projects, reading, and methods can be shared while they are still developing. Each note will make its status clear, distinguish preliminary ideas from finished results, and point to the related project or publication when one exists.
+
+::: {.feature-grid .note-type-grid}
+::: {.feature-card}
+::: {.note-chip .note-chip--field}
+Field Note
+:::
+
+### Stories from fieldwork
+
+Place, purpose, methods, memorable observations, photographs, and what the experience changed in my thinking.
+:::
+
+::: {.feature-card}
+::: {.note-chip .note-chip--project}
+Project Update
+:::
+
+### Work in progress
+
+What changed, what remains uncertain, and where outside feedback could move a project forward.
+:::
+
+::: {.feature-card}
+::: {.note-chip .note-chip--reading}
+Reading Synthesis
+:::
+
+### Learning in public
+
+Connections, disagreements, useful approaches, and open questions across the things I am reading.
+:::
+
+::: {.feature-card}
+::: {.note-chip .note-chip--methods}
+Methods Note
+:::
+
+### Practical experiments
+
+Small workflows, analysis choices, tool demonstrations, and lessons that may help other researchers.
+:::
+:::
+
+## Latest notes

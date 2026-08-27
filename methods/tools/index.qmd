@@ -1,0 +1,57 @@
+---
+title: Open Tools
+description: "Bioacoustics tools, scripts, examples, and collaboration opportunities from Animal Chatter."
+page-layout: full
+toc: false
+---
+
+::: {.eyebrow}
+Build openly, explain clearly
+:::
+
+This will become a practical catalogue of the tools and workflows I make while working with animal sounds, behaviour, and sequence data. The first tool pages will be added after the site structure is approved.
+
+## Every tool page will include
+
+::: {.feature-grid}
+::: {.feature-card}
+### The research problem
+
+What the tool helps answer, who it is for, and when another approach may be better.
+:::
+
+::: {.feature-card}
+### A small working example
+
+Installation, example input, expected output, and enough context to try it without reading an entire codebase.
+:::
+
+::: {.feature-card}
+### Honest status
+
+An experimental, stable, or archived label; known limitations; the last meaningful update; and a version when appropriate.
+:::
+
+::: {.feature-card}
+### Reuse and credit
+
+An explicit software licence, citation guidance, source-code link, and instructions for reporting a problem.
+:::
+:::
+
+::: {.callout-note}
+Until an individual tool page displays a licence, treat that tool as not yet released for reuse. Public source code without a licence is not automatically open-source software.
+:::
+
+::: {.collaboration-cta}
+::: {.collaboration-cta__content}
+## Use freely; collaborate closely
+
+Released tools will be documented for independent use. If a tool overlaps with a question you care about—or you see a better way to build it—I would be glad to hear your idea.
+:::
+
+::: {.collaboration-cta__actions}
+[Discuss an idea](../../contact.qmd){.btn .btn-primary}
+[Visit GitHub](https://github.com/Nakul-wewhare){.btn .btn-outline-primary}
+:::
+:::

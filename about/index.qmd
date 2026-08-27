@@ -1,0 +1,82 @@
+---
+title: ""
+pagetitle: "About"
+description: "About Nakul Wewhare and the questions behind Animal Chatter."
+page-layout: full
+toc: false
+---
+
+::: {.visual-hero .visual-hero--compact}
+::: {.visual-hero__content}
+::: {.visual-hero__kicker}
+About Nakul
+:::
+
+# Listening for structure in social life
+
+I am a PhD student in Ecology and Evolutionary Biology at Princeton University. I study how animals learn, organize, and use vocal signals—and what those signals reveal about identity, relationships, and coordination.
+
+My work brings together animal communication, bioacoustics, vocal learning, social behaviour, and quantitative approaches to vocal sequences.
+
+::: {.cta-row}
+[Download my CV](../cv/Nakul_Wewhare_CV.pdf){.btn .btn-primary}
+[See my research](../research/){.btn .btn-outline-primary}
+:::
+:::
+
+::: {.visual-hero__media}
+::: {.visual-hero__placeholder}
+::: {.visual-hero__placeholder-label}
+Reserved for a portrait or field photograph that shows the person and work behind the research.
+:::
+:::
+:::
+:::
+
+## The questions that connect my work
+
+I am especially interested in how vocal sequences encode identity, social relationships, and coordination; how learned communication changes inside real social networks; and how quantitative methods can reveal structure beyond individual calls.
+
+The [Research](../research/) pages introduce current and past projects. The [Publications](../publications/) page collects formal outputs, while [Notes](../notes/) provides room to explain why a question matters, what happened during the work, and what I would like to explore next.
+
+## Elsewhere
+
+::: {.contact-grid}
+::: {.feature-card}
+### Curriculum vitae
+
+[View the CV page](../cv/) or [download the PDF](../cv/Nakul_Wewhare_CV.pdf).
+:::
+
+::: {.feature-card}
+### Google Scholar
+
+[Browse publications and citations](https://scholar.google.com/citations?user=T08iq_UAAAAJ&hl=en).
+:::
+
+::: {.feature-card}
+### GitHub
+
+[Explore code and repositories](https://github.com/Nakul-wewhare).
+:::
+
+::: {.feature-card}
+### Affiliation
+
+Princeton University<br>
+Department of Ecology and Evolutionary Biology
+:::
+:::
+
+::: {.collaboration-cta}
+::: {.collaboration-cta__content}
+## Let us compare ideas
+
+If you are thinking about similar questions, interested in using or improving a tool, or see a connection between your work and mine, I would be happy to hear from you.
+:::
+
+::: {.collaboration-cta__actions}
+[Contact me](../contact.qmd){.btn .btn-primary}
+[Read the latest notes](../notes/){.btn .btn-outline-primary}
+:::
+:::

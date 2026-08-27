@@ -15,15 +15,25 @@ website:
         text: Research
       - href: publications/index.qmd
         text: Publications
-      - href: blog/index.qmd
-        text: Blog
-      - href: cv/index.qmd
-        text: CV
-      - href: contact.qmd
-        text: Contact
+      - href: notes/index.qmd
+        text: Notes
+      - text: Methods
+        menu:
+          - href: methods/index.qmd
+            text: Methods overview
+          - href: methods/tools/index.qmd
+            text: Open Tools
+          - href: methods/resources/index.qmd
+            text: Resources
+      - href: about/index.qmd
+        text: About
     right:
+      - icon: envelope
+        text: Contact
+        href: contact.qmd
       - icon: github
         href: https://github.com/Nakul-wewhare
+        aria-label: GitHub
       - text: Scholar
         href: https://scholar.google.com/citations?user=T08iq_UAAAAJ&hl=en
   search: true

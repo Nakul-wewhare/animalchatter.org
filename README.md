@@ -4,10 +4,12 @@ Academic website for Nakul Wewhare, built with Quarto and deployed through GitHu
 
 ## What is in this repo
 
-- A homepage with research overview
+- A photo- and data-ready homepage with a research overview
 - Research project pages
 - A publications page
-- A small blog
+- Notes for field stories, project updates, reading syntheses, and methods writing
+- Open Tools and curated Resources sections
+- Reusable writing and media templates in `templates/`
 - A CV page with downloadable PDF
 - A GitHub Actions workflow for deployment
 
@@ -43,15 +45,23 @@ git remote add origin https://github.com/Nakul-wewhare/animalchatter.org.git
 
 ## Local preview
 
-Quarto is not installed on this machine yet, so the site will build on GitHub after push. If you want local previews later, install Quarto and run:
+A portable Quarto installation is available on this Mac. Preview the site with:
 
 ```bash
-quarto preview
+/Users/nw1238/.local/share/quarto-1.10.18/bin/quarto preview
+```
+
+For a development-only accessibility scan in the browser console:
+
+```bash
+/Users/nw1238/.local/share/quarto-1.10.18/bin/quarto preview --profile accessibility
 ```
 
 ## Easy next edits
 
 - Replace or expand the project pages in `projects/`
-- Add blog posts inside `blog/posts/`
+- Create a Note from one of the starting files in `templates/`
+- Keep published Notes inside `blog/posts/` so existing URLs remain stable
+- Add tools under `methods/tools/` and recommendations under `methods/resources/`
 - Update `publications/index.qmd` when new papers appear
 - Replace the PDF in `cv/` when your CV changes

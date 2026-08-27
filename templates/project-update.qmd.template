@@ -1,0 +1,75 @@
+---
+title: "[Project name]: [what changed]"
+description: "[A concise account of this update and why it matters]"
+date: YYYY-MM-DD
+categories: [project update, TOPIC, SPECIES]
+toc: true
+draft: true
+---
+
+::: {.note-chip .note-chip--project}
+Project Update
+:::
+
+::: {.status-badge .status-badge--active}
+Work in progress
+:::
+
+::: {.callout-important}
+This post describes work in progress. Analyses, interpretations, and figures may
+change; please link to this page rather than treating it as a final result.
+:::
+
+## The project in one paragraph
+
+[State the question, system, and approach for a reader arriving for the first
+time. Link to the full project page.]
+
+## What changed since the last update
+
+[New data, a revised method, a useful failure, a surprising pattern, or a
+decision—and the evidence behind it.]
+
+## A result or visualization in progress
+
+::: {.interactive-figure}
+::: {.interactive-figure__header}
+### [Figure title]
+
+[One sentence telling the reader what to look for.]
+:::
+
+::: {.interactive-figure__stage}
+::: {.interactive-figure__placeholder}
+::: {.interactive-figure__placeholder-label}
+[Embed an interactive HTML figure here, or replace this block with an image.]
+:::
+:::
+:::
+
+::: {.interactive-figure__caption}
+[Interpretation, sample, uncertainty, and whether this figure is preliminary.]
+:::
+:::
+
+## What remains uncertain
+
+[Name the assumptions, alternative explanations, or missing information.]
+
+## Next steps
+
+- [Next concrete step]
+- [Decision or check]
+- [Expected future update]
+
+::: {.collaboration-cta}
+::: {.collaboration-cta__content}
+## Feedback would be useful here
+
+[Ask one or two focused questions rather than requesting general feedback.]
+:::
+
+::: {.collaboration-cta__actions}
+[Share feedback](../../../contact.qmd){.btn .btn-primary}
+:::
+:::

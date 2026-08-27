@@ -4,9 +4,9 @@ page-layout: full
 toc: false
 ---
 
-::: {.hero-shell}
-::: {.hero-copy}
-::: {.eyebrow}
+::: {.visual-hero .visual-hero--data}
+::: {.visual-hero__content}
+::: {.visual-hero__kicker}
 Animal Chatter
 :::
 
@@ -18,8 +18,8 @@ My work sits at the intersection of bioacoustics, animal communication, vocal le
 
 ::: {.cta-row}
 [Explore research](research/){.btn .btn-primary .btn-hero}
-[Download CV](cv/Nakul_Wewhare_CV.pdf){.btn .btn-outline-primary}
-[Email me](mailto:nakul@princeton.edu){.btn .btn-outline-secondary}
+[Read the notes](notes/){.btn .btn-outline-primary}
+[Work with me](contact.qmd){.btn .btn-outline-secondary}
 :::
 
 ::: {.pill-row}
@@ -31,21 +31,35 @@ My work sits at the intersection of bioacoustics, animal communication, vocal le
 :::
 :::
 
-::: {.hero-card}
-## Current Base
+::: {.visual-hero__media}
+::: {.visual-hero__placeholder}
+::: {.visual-hero__placeholder-label}
+Reserved for a field photograph, animated spectrogram, or interactive vocal exchange from the research.
+:::
+:::
+:::
+:::
+
+## Research at a Glance
+
+::: {.feature-grid}
+::: {.feature-card}
+### Current Base
 
 Princeton University  
 Department of Ecology and Evolutionary Biology
+:::
 
-## Research Themes
+::: {.feature-card}
+### Research Themes
 
-- Vocal labeling and matching of others
-- Social coordination and cooperation
-- Vocal sequences and syntax structure
+Vocal learning, social coordination, and the structure of animal vocal sequences.
+:::
 
-## On This Site
+::: {.feature-card}
+### What You Will Find Here
 
-Papers, project summaries, short writing, contact details, and a downloadable CV.
+Research stories, project updates, papers, open methods, learning resources, and field notes.
 :::
 :::
 
@@ -71,6 +85,84 @@ Comparative work on parrots explores repetition, sequence structure, and higher-
 :::
 :::
 
+## Visual Stories
+
+::: {.data-centerpiece}
+::: {.data-centerpiece__header}
+## Explore a vocal interaction
+
+This full-width stage is ready for a zoomable plot, animated vocal network, synchronized spectrogram, or short field video.
+:::
+
+::: {.data-centerpiece__stage}
+::: {.interactive-figure__placeholder}
+::: {.interactive-figure__placeholder-label}
+Interactive research centerpiece — sample media will be selected together.
+:::
+:::
+:::
+
+::: {.data-centerpiece__caption}
+**Designed for exploration.** Visitors will be able to zoom, hover, listen, or follow changes through time without leaving the project story.
+
+Every centerpiece will also include a plain-language explanation, a static fallback, and clear labels when results are preliminary.
+:::
+:::
+
+## Notes from the Work
+
+::: {.feature-grid}
+::: {.feature-card}
+::: {.note-chip .note-chip--field}
+Field notes
+:::
+
+### Field seasons and observations
+
+Photo-rich accounts of places, methods, animals, and the questions that emerge while collecting data.
+:::
+
+::: {.feature-card}
+::: {.note-chip .note-chip--project}
+Project updates
+:::
+
+### Research in progress
+
+Dated reports on current analyses, developing ideas, and questions where feedback would be useful.
+:::
+
+::: {.feature-card}
+::: {.note-chip .note-chip--reading}
+Reading syntheses
+:::
+
+### Thinking through the literature
+
+Short syntheses of papers, points of disagreement, useful methods, and open questions.
+:::
+:::
+
+::: {.cta-row}
+[Browse all notes](notes/){.btn .btn-primary}
+:::
+
+## Open Methods
+
+::: {.feature-grid}
+::: {.feature-card}
+### [Open Tools](methods/tools/)
+
+Bioacoustics scripts, workflows, examples, documentation, and clear information about reuse and collaboration.
+:::
+
+::: {.feature-card}
+### [Learning Resources](methods/resources/)
+
+A curated route into tutorials, useful packages, practical workflows, and recommended methods papers.
+:::
+:::
+
 ## Selected Publications
 
 ::: {.publication-stack}
@@ -92,10 +184,20 @@ Comparative work on parrots explores repetition, sequence structure, and higher-
 ## What You Can Use This Site For
 
 - Browse research projects without digging through a CV.
-- Find publication links quickly.
-- Follow short blog posts and research notes.
-- Download a current PDF CV.
+- Understand why a project or paper was worth pursuing.
+- Follow field notes, project updates, and reading syntheses.
+- Find publication links, open tools, and learning resources.
+- Download a [current PDF CV](cv/Nakul_Wewhare_CV.pdf).
 
-## Start Here
+::: {.collaboration-cta}
+::: {.collaboration-cta__content}
+## Interested in these ideas?
 
-If you are new to my work, the best places to begin are the [research page](research/), the [publications page](publications/), and the [blog](blog/).
+I welcome conversations about animal communication, bioacoustics, vocal sequence analysis, tools, and possible collaborations.
+:::
+
+::: {.collaboration-cta__actions}
+[See current interests](research/){.btn .btn-primary}
+[Start a conversation](contact.qmd){.btn .btn-outline-primary}
+:::
+:::

@@ -1,0 +1,58 @@
+---
+title: Methods
+description: "Open bioacoustics tools, practical workflows, and curated learning resources."
+page-layout: full
+toc: false
+---
+
+::: {.eyebrow}
+Methods should be usable
+:::
+
+This section will bring together the practical side of the research: tools I make, workflows I find useful, and carefully chosen resources for learning bioacoustics and quantitative methods.
+
+::: {.feature-grid}
+::: {.feature-card}
+::: {.status-badge .status-badge--developing}
+Growing collection
+:::
+
+### [Open Tools](tools/)
+
+Scripts, packages, and small utilities presented with examples, limitations, licensing, citation guidance, and a clear route for feedback.
+
+[Explore open tools](tools/)
+:::
+
+::: {.feature-card}
+::: {.status-badge .status-badge--developing}
+Being curated
+:::
+
+### [Learning Resources](resources/)
+
+Tutorials, useful software, recommended methods papers, and practical starting points—with a short explanation of why each item is useful.
+
+[Browse resources](resources/)
+:::
+:::
+
+## What belongs here
+
+- Reproducible examples that connect a research question to an analysis.
+- Honest notes about what a method can and cannot tell us.
+- Small, inspectable demonstration data rather than sensitive or unpublished datasets.
+- Multiple routes into a topic for readers with different levels of experience.
+
+::: {.collaboration-cta}
+::: {.collaboration-cta__content}
+## Have an idea for a tool or workflow?
+
+These resources are intended to be useful on their own, but I would also be excited to hear about research problems where working together could help.
+:::
+
+::: {.collaboration-cta__actions}
+[Share an idea](../contact.qmd){.btn .btn-primary}
+[Read about the research](../research/){.btn .btn-outline-primary}
+:::
+:::

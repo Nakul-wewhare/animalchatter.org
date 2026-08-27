@@ -1,0 +1,58 @@
+---
+title: Resources
+description: "Curated tutorials, packages, methods papers, and practical bioacoustics workflows."
+page-layout: full
+toc: false
+---
+
+::: {.eyebrow}
+A guided route through bioacoustics
+:::
+
+This page will collect resources that are genuinely useful for learning and doing bioacoustics. Instead of becoming a long unannotated link list, each recommendation will explain what it teaches, what background it assumes, and when it becomes useful in a real project.
+
+::: {.feature-grid}
+::: {.feature-card}
+### Video tutorials
+
+Approachable demonstrations of recording, annotation, acoustic measurement, visualization, and analysis.
+:::
+
+::: {.feature-card}
+### Software and packages
+
+Useful tools in R, Python, and specialist bioacoustics software, grouped by the problem they solve.
+:::
+
+::: {.feature-card}
+### Methods papers
+
+Recommended papers with a short note on the central idea, practical value, assumptions, and limitations.
+:::
+
+::: {.feature-card}
+### Field-to-analysis workflows
+
+Practical pathways from recorder setup and metadata to quality checks, reproducible analysis, and archiving.
+:::
+:::
+
+## Planned learning paths
+
+1. **Starting with sound** — recordings, spectrograms, annotation, and acoustic features.
+2. **Working reproducibly** — project organization, metadata, code, and version control.
+3. **Studying sequences** — units, transitions, alignment, and higher-order structure.
+4. **Connecting sound and social life** — behavioural data, interaction, and social networks.
+
+::: {.collaboration-cta}
+::: {.collaboration-cta__content}
+## Recommend something excellent
+
+If a tutorial, package, dataset, or paper has changed how you work, you are welcome to suggest it. Recommendations will be credited when added.
+:::
+
+::: {.collaboration-cta__actions}
+[Suggest a resource](../../contact.qmd){.btn .btn-primary}
+[Browse open tools](../tools/){.btn .btn-outline-primary}
+:::
+:::
