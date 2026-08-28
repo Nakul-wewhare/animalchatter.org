@@ -18,6 +18,24 @@ My 2026 field season did not look like fieldwork every day. Most of my time was 
 
 Three questions connected much of the lab work. I am testing whether **vocal matching** predicts which bat answers near the beginning of an exchange, how **call combinations** are organized, and what bats are doing before and after particular calls. A sound camera estimates where a call originated; synchronized video can then help associate it with a candidate caller and behaviour. This lets us ask questions such as which bat called, who responded, and whether a bat approached after hearing a particular call.
 
+::: {.media-frame .media-loop .media-loop--wide}
+```{=html}
+<video controls
+       playsinline
+       preload="metadata"
+       poster="../../../assets/media/bats/vampire-bat-sound-camera-poster.jpg"
+       aria-label="Sound-camera recording of interacting vampire bats with synchronized acoustic localization and spectrogram panels."
+       aria-describedby="panama-sound-camera-description">
+  <source src="../../../assets/media/bats/vampire-bat-sound-camera.mp4" type="video/mp4">
+  Your browser does not support embedded video. The caption below describes the recording.
+</video>
+```
+
+::: {#panama-sound-camera-description .media-frame__caption}
+The grayscale panel shows the bats interacting while coloured localization markers estimate where each detected call originated. Synchronized acoustic channels and spectrograms appear at right. Aligning these streams lets us associate calls and call combinations with candidate callers and behaviours such as approach, contact, or withdrawal. The source recording retains its playback controls and audio.
+:::
+:::
+
 Alongside these recordings, I ran playback experiments to test candidate call functions and measure how bats respond to different calls. The screen recording below shows one analysis tool: a timeline that aligns playback-channel detections with calls from three bats. Zooming moves from an entire night to short response windows, and hovering over a detected call displays its spectrogram.
 
 ::: {.media-frame .media-loop .media-loop--wide}
