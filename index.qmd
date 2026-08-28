@@ -70,11 +70,29 @@ Spatial proximity represents similarity in the selected acoustic feature space, 
 :::
 :::
 
+::: {.home-question-intro}
+::: {.home-question-intro__copy}
 ## From animal conversations to testable questions
 
 “How do animals talk to each other?” is the simple question behind my research. I use *talk* as an accessible shorthand, not as an assumption that animal communication works like human language. The scientific questions are more specific: who produces a signal, who responds, what information the signal carries, how sequences change its interpretation, and what animals can learn from one another.
 
 A longer-term hope is that sufficiently detailed knowledge of another species' communication system might eventually support a limited but meaningful form of interspecies communication. We are not there yet. But biologging, acoustic localization, thermal imaging, behavioural experiments, and computational analysis now let us study vocal exchanges at much finer temporal, spatial, and social scales than was previously possible.
+:::
+
+::: {.home-question-intro__media}
+```{=html}
+<a href="projects/parrot-vocal-sequences.qmd"
+   aria-label="Read about comparative parrot vocal sequences">
+  <img src="assets/images/profile/nakul-wewhare-parrot-fieldwork.jpg"
+       alt="Nakul Wewhare using recording equipment with a parrot perched on his shoulder at a zoo."
+       loading="eager"
+       decoding="async"
+       width="782"
+       height="1042">
+</a>
+```
+:::
+:::
 
 ## Six connected research themes
 
@@ -322,25 +340,6 @@ Concise syntheses of related studies, methodological disagreements, evidential l
 ::: {.cta-row}
 [Visit the blog](notes/){.btn .btn-primary}
 :::
-
-```{=html}
-<div class="home-photo-accents">
-  <img class="home-photo-accent home-photo-accent--parrot"
-       src="assets/images/profile/nakul-wewhare-parrot-fieldwork.jpg"
-       alt="Nakul Wewhare using recording equipment with a parrot perched on his shoulder at a zoo."
-       loading="lazy"
-       decoding="async"
-       width="782"
-       height="1042">
-  <img class="home-photo-accent home-photo-accent--dogs"
-       src="assets/images/profile/nakul-wewhare-free-ranging-dog-fieldwork.jpg"
-       alt="Nakul Wewhare holding field notes while observing a free-ranging dog on a street in Mumbai."
-       loading="lazy"
-       decoding="async"
-       width="767"
-       height="575">
-</div>
-```
 
 ## Methods and resources
 

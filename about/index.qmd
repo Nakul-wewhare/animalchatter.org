@@ -5,7 +5,7 @@ page-layout: full
 toc: false
 ---
 
-::: {.visual-hero .visual-hero--compact .visual-hero--about-profile}
+::: {.visual-hero .visual-hero--compact}
 ::: {.visual-hero__content}
 ::: {.visual-hero__kicker}
 About Nakul
@@ -25,14 +25,18 @@ I use *talk* as a broad, informal term rather than a claim that animal communica
 
 ::: {.visual-hero__media}
 ```{=html}
-<img class="visual-hero__image visual-hero__image--portrait"
-     src="../assets/images/profile/nakul-wewhare-portrait.png"
-     alt="Portrait of Nakul Wewhare wearing a light-blue sweater outdoors."
+<img class="visual-hero__image visual-hero__image--panama-talk"
+     src="../assets/images/panama-2026/stri-talk.jpg"
+     alt="Nakul Wewhare presents research on common vampire bats at a seminar in Panama."
      decoding="async"
      fetchpriority="high"
-     width="387"
-     height="516">
+     width="1600"
+     height="1200">
 ```
+:::
+
+::: {.visual-hero__credit}
+Speaking about vampire-bat research at a behaviour-group seminar in the Smithsonian Tropical Research Institute's Tupper building, Panama.
 :::
 :::
 
@@ -66,9 +70,151 @@ Bats are a strong comparative system because both perception and vocal productio
 
 My doctoral research investigates vocal matching near the onset of calling bouts, non-random call combinations, population and group variation, and the potential social learning of sequence conventions. These are active analyses and experiments; proposed functions are presented as hypotheses and are separated from descriptive or correlational evidence.
 
-## The path into these questions
+## Previous work
 
-Earlier work with budgerigars examined vocal learning within dynamic social networks and sequence organization beyond individual notes. Research with common marmosets then tested whether newly formed pairs converge in vocal-sequence structure across audience conditions. I now extend these questions to vampire bats while continuing comparative work across birds and primates.
+::: {.previous-work-intro}
+```{=html}
+<img class="previous-work-intro__portrait"
+     src="../assets/images/profile/nakul-wewhare-portrait.png"
+     alt="Portrait of Nakul Wewhare wearing a light-blue sweater outdoors."
+     loading="lazy"
+     decoding="async"
+     width="387"
+     height="516">
+```
+
+::: {.previous-work-intro__copy}
+Before moving to vampire bats, I worked across field behaviour, automated experiments, computer vision, bioacoustics, and social-network analysis. Each project sharpened a different part of the same broad question: how animals use information and how social experience shapes behaviour.
+:::
+:::
+
+::: {.previous-work-grid}
+::: {.previous-work-card}
+```{=html}
+<img class="previous-work-card__media"
+     src="../assets/images/profile/nakul-wewhare-free-ranging-dog-fieldwork.jpg"
+     alt="Nakul Wewhare holding field notes while observing a free-ranging dog on a street in Mumbai."
+     loading="lazy"
+     decoding="async"
+     width="767"
+     height="575">
+```
+
+::: {.previous-work-card__body}
+[Field experiments · Mumbai]{.previous-work-card__label}
+
+### Sensory decisions in free-ranging dogs
+
+With the Dog Lab at IISER Kolkata, I helped design and run field experiments testing how free-ranging dogs combine visual and olfactory information while scavenging. The resulting preprint has not yet been peer reviewed.
+
+[Project summary](../projects/free-ranging-dog-decision-making.qmd) · [Preprint](https://doi.org/10.48550/arXiv.2512.00058)
+:::
+:::
+
+::: {.previous-work-card}
+```{=html}
+<img class="previous-work-card__media"
+     src="../assets/images/previous-work/nakul-wewhare-university-of-alberta.webp"
+     alt="Nakul Wewhare stands beside the University of Alberta North Campus sign."
+     loading="lazy"
+     decoding="async"
+     width="787"
+     height="590">
+```
+
+::: {.previous-work-card__body}
+[MITACS Globalink · 2023]{.previous-work-card__label}
+
+### Zebra-finch cognition in Canada
+
+At the University of Alberta's Animal Cognition Research Group, I ran zebra-finch nest-building experiments and developed DeepLabCut and AnimalTA workflows to quantify activity and personality-linked information use.
+
+[Curriculum vitae](../cv/) · [Animal Cognition Research Group](https://sites.psych.ualberta.ca/animal-cognition-ualberta/)
+:::
+:::
+
+::: {.previous-work-card}
+```{=html}
+<img class="previous-work-card__media previous-work-card__media--poster"
+     src="../assets/images/previous-work/zebra-finch-delayed-instruction-poster.webp"
+     alt="Research poster titled Training Zebra Finches to Sing on Cue in a Delayed Instruction Paradigm."
+     loading="lazy"
+     decoding="async"
+     width="683"
+     height="911">
+```
+
+::: {.previous-work-card__body}
+[Rajan Lab · IISER Pune]{.previous-work-card__label}
+
+### Preparing to sing on cue
+
+I built a microcontroller-based training setup for a delay-instructed zebra-finch singing paradigm and assisted with electrophysiological recordings designed to separate preparation from song production.
+
+[Curriculum vitae](../cv/) · [Rajan Lab](https://raghavrajan.wixsite.com/rajanlab)
+:::
+:::
+
+::: {.previous-work-card .previous-work-card--text}
+::: {.previous-work-card__body}
+[Sequence analysis · manuscript in revision]{.previous-work-card__label}
+
+### Sequence convergence in common marmosets
+
+I developed sequence-comparison methods to test how vocal organization changes after pair formation. The public preprint reports audience-dependent convergence in sequence structure, without clear convergence in individual phee-call acoustics.
+
+[Project summary](../projects/marmoset-vocal-convergence.qmd) · [Preprint](https://doi.org/10.64898/2026.03.20.713272)
+:::
+:::
+
+::: {.previous-work-card .previous-work-card--video}
+```{=html}
+<video class="previous-work-card__media"
+       controls
+       playsinline
+       preload="metadata"
+       poster="../assets/media/budgerigars/budgerigar-courtship-display-poster.jpg"
+       aria-label="Two yellow-green budgerigars perch in a recording cage as the male coordinates warble song with repeated head and body movements toward the female.">
+  <source src="../assets/media/budgerigars/budgerigar-courtship-display.mp4" type="video/mp4">
+  Your browser does not support embedded video.
+</video>
+```
+
+::: {.previous-work-card__body}
+[Peer-reviewed study · 2024]{.previous-work-card__label}
+
+### Song and movement in budgerigar courtship
+
+The clip shows a male directing warble song and repeated head and body movements toward a female. I analysed synchronized vocal and movement sequences from 100 courtship bouts; the study identified both broadly shared and individual-specific note–movement associations.
+
+[Project summary](../projects/budgerigar-multimodal-courtship.qmd) · [Paper](https://doi.org/10.1242/bio.060497)
+:::
+:::
+
+::: {.previous-work-card .previous-work-card--video}
+```{=html}
+<video class="previous-work-card__media"
+       controls
+       playsinline
+       preload="metadata"
+       poster="../assets/media/budgerigars/budgerigar-colony-social-network-poster.jpg"
+       aria-label="A mixed-sex budgerigar colony moves and interacts across perches in a large flight cage.">
+  <source src="../assets/media/budgerigars/budgerigar-colony-social-network.mp4" type="video/mp4">
+  Your browser does not support embedded video.
+</video>
+```
+
+::: {.previous-work-card__body}
+[BS–MS thesis · 2024–2025]{.previous-work-card__label}
+
+### Social networks and vocal learning
+
+This colony video shows the observation setting used for manual behavioural annotation. For my master's thesis, I constructed interaction and association networks from formally coded behaviour, then tested whether social-network structure predicted longitudinal change in vocal repertoires.
+
+[Project summary](../projects/social-networks-and-vocal-learning.qmd)
+:::
+:::
+:::
 
 ## How I think about methods
 
