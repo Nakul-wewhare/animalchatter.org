@@ -5,7 +5,7 @@ page-layout: full
 toc: false
 ---
 
-::: {.visual-hero .visual-hero--compact}
+::: {.visual-hero .visual-hero--compact .visual-hero--about-profile}
 ::: {.visual-hero__content}
 ::: {.visual-hero__kicker}
 About Nakul
@@ -25,16 +25,14 @@ I use *talk* as a broad, informal term rather than a claim that animal communica
 
 ::: {.visual-hero__media}
 ```{=html}
-<img class="visual-hero__image visual-hero__image--panama-talk"
-     src="../assets/images/panama-2026/stri-talk.jpg"
-     alt="Nakul Wewhare presents research on common vampire bats at a seminar in Panama."
+<img class="visual-hero__image visual-hero__image--portrait"
+     src="../assets/images/profile/nakul-wewhare-portrait.png"
+     alt="Portrait of Nakul Wewhare wearing a light-blue sweater outdoors."
      decoding="async"
-     fetchpriority="high">
+     fetchpriority="high"
+     width="387"
+     height="516">
 ```
-:::
-
-::: {.visual-hero__credit}
-Speaking about vampire-bat research at a behaviour-group seminar in the Smithsonian Tropical Research Institute's Tupper building, Panama.
 :::
 :::
 

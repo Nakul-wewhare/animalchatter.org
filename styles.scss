@@ -2018,6 +2018,72 @@ table thead,
   border-color: #a5d6ff;
 }
 
+/* Personal photographs: sparse, caption-free accents rather than a gallery. */
+
+.visual-hero--about-profile {
+  grid-template-columns: minmax(0, 1fr) minmax(15rem, 0.42fr);
+  min-height: 0;
+  background: #101722;
+}
+
+.visual-hero--about-profile::after {
+  display: none;
+}
+
+.visual-hero--about-profile .visual-hero__content {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: auto;
+  padding: clamp(2rem, 5vw, 4.5rem);
+  background: #161b22;
+}
+
+.visual-hero--about-profile .visual-hero__media {
+  position: relative;
+  inset: auto;
+  min-height: 32rem;
+  background: #010409;
+}
+
+.visual-hero--about-profile .visual-hero__media > img {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover;
+  object-position: center top;
+}
+
+.home-photo-accents {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  gap: 0.85rem;
+  width: min(100%, 30rem);
+  margin: 1.25rem 0 2.5rem auto;
+  padding-right: clamp(0rem, 3vw, 2rem);
+}
+
+.home-photo-accent {
+  display: block;
+  width: clamp(7rem, 11vw, 9.5rem);
+  height: auto;
+  object-fit: cover;
+  border: 1px solid var(--site-border);
+  border-radius: 0;
+  box-shadow: var(--site-shadow);
+}
+
+.home-photo-accent--parrot {
+  aspect-ratio: 3 / 4;
+}
+
+.home-photo-accent--dogs {
+  width: clamp(9.5rem, 15vw, 13rem);
+  aspect-ratio: 4 / 3;
+  margin-top: 1.4rem;
+}
+
 /* Homepage: copy and moving visualization occupy separate, equal-status panes. */
 
 .home-split-hero {
@@ -3055,5 +3121,47 @@ table thead,
 
   .plot-panel--invert img {
     filter: none;
+  }
+}
+
+@media (max-width: 720px) {
+  .visual-hero--about-profile {
+    grid-template-columns: 1fr;
+  }
+
+  .visual-hero--about-profile .visual-hero__content {
+    padding: 2rem 1.25rem;
+    padding-bottom: 2rem;
+  }
+
+  .visual-hero--about-profile .visual-hero__media {
+    display: flex;
+    justify-content: center;
+    min-height: 0;
+    padding: 1rem;
+  }
+
+  .visual-hero--about-profile .visual-hero__media > img {
+    width: min(100%, 20rem) !important;
+    height: auto !important;
+    aspect-ratio: 3 / 4;
+  }
+}
+
+@media (max-width: 640px) {
+  .home-photo-accents {
+    justify-content: center;
+    width: 100%;
+    margin: 1.25rem 0 2.25rem;
+    padding: 0;
+  }
+
+  .home-photo-accent {
+    width: 8rem;
+  }
+
+  .home-photo-accent--dogs {
+    width: 10.5rem;
+    margin-top: 1rem;
   }
 }
