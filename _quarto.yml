@@ -11,8 +11,11 @@ website:
   title: "Animal Chatter"
   site-url: https://animalchatter.org
   description: "Academic website for Nakul Wewhare: animal communication, bioacoustics, vocal learning, and research notes."
+  favicon: assets/images/brand/animal-chatter-mark-96.png
   navbar:
     pinned: true
+    logo: assets/images/brand/animal-chatter-mark-96.png
+    logo-alt: "Animal Chatter home"
     left:
       - href: index.qmd
         text: Home
