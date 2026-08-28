@@ -1,0 +1,119 @@
+---
+pagetitle: "Vocal Individuality: Cue or Signal?"
+description: "An empirical framework for distinguishing incidental acoustic individuality from evolved or learned identity signalling."
+page-layout: full
+toc: true
+toc-depth: 2
+---
+
+::: {.theme-page-hero}
+::: {.theme-page-hero__number}
+06
+:::
+
+::: {.theme-page-hero__copy}
+::: {.eyebrow}
+Passive cues & active identity signals
+:::
+
+# Acoustic discriminability is not equivalent to identity signalling
+
+Machine-learning classifiers can often recover caller identity from acoustic structure. Classification performance establishes statistical discriminability, but it does not demonstrate that a feature evolved, was learned, or is deployed **to communicate identity**. Anatomical variation, age, physiological state, and stable production habits can generate individuality as an incidental cue. My aim is to develop tests that distinguish such cues from identity signals maintained or deployed because of their effects on receivers.
+
+::: {.status-badge .status-badge--developing}
+Developing conceptual and empirical programme
+:::
+
+[Last updated 28 August 2026]{.theme-page-hero__updated}
+:::
+:::
+
+::: {.callout-note}
+This page presents a developing conceptual and empirical framework. The examples motivate candidate tests; they do not independently demonstrate active encoding of individual identity.
+:::
+
+## The distinction
+
+::: {.comparison-grid}
+::: {.comparison-card}
+::: {.comparison-card__label}
+Passive identity cue
+:::
+
+### Identity is statistically recoverable
+
+Identity can be recovered because anatomy, physiological state, or stable production habits differ among individuals. Receivers may exploit this information even when selection has not shaped the feature as an identity signal.
+
+**Candidate prediction:** individual differences persist across contexts and are substantially explained by morphology or stable production constraints.
+:::
+
+::: {.comparison-card}
+::: {.comparison-card__label}
+Active identity signal
+:::
+
+### Identity-bearing structure is maintained or deployed
+
+Animals learn, modify, or selectively deploy a pattern whose receiver-mediated value depends on recognition, as proposed for signature whistles and learned contact calls.
+
+**Candidate prediction:** the feature shows production learning or active maintenance, context-sensitive deployment, receiver recognition, and robustness across short-term changes in state or recording channel.
+:::
+:::
+
+## Evidence required beyond classification accuracy
+
+::: {.question-grid}
+::: {.question-card}
+### Production
+
+Does the identity-bearing feature change predictably following altered social experience, or remain actively stable despite perturbation?
+:::
+
+::: {.question-card}
+### Perception
+
+Do receivers discriminate or respond to the candidate feature when correlated acoustic information is experimentally controlled?
+:::
+
+::: {.question-card}
+### Context
+
+Is the feature selectively deployed or enhanced in contexts in which recognition or recipient selection is relevant?
+:::
+
+::: {.question-card}
+### Mechanism
+
+How much of the apparent signature is attributable to morphology, recording conditions, arousal, or stable motor habits?
+:::
+:::
+
+## Empirical observations motivating the framework
+
+An unpublished budgerigar study finds substantial individual structure in warble syntax and within candidate contact-call subtypes, including among males that share repertoire components. Dyads with higher mutual-display rates also produced more acoustically distinct variants within shared subtypes. These associations are compatible with maintenance of individual variants within a socially shared repertoire, but the observational design cannot distinguish active signalling from persistent individual cues.
+
+In the marmoset preprint, sequence structure changed following pair formation in one audience context, whereas individual phee-call acoustics showed no clear convergence. This dissociation motivates separate tests of information at call and sequence levels; receiver experiments are required to determine whether either level is used for recognition of individuals or relationships.
+
+## Proposed evidence-synthesis project
+
+A systematic review could classify vocal-individuality studies by evidence for incidental cues, evolved or learned signals, or unresolved mixtures. Candidate dimensions include control of morphology and state, cross-context stability, evidence of production learning, receiver discrimination, context-dependent deployment, and experimental perturbation. The objective would be to make inferential requirements explicit and identify taxa in which production and perception hypotheses can be tested jointly.
+
+## Related projects
+
+- [Competition, rank, and learned vocal structure in budgerigars](../../../projects/budgerigar-competition-vocal-structure.qmd)
+- [Song and movement in budgerigar courtship](../../../projects/budgerigar-multimodal-courtship.qmd)
+- [Sequence-level vocal convergence in common marmosets](../../../projects/marmoset-vocal-convergence.qmd)
+- [Vocal matching and directed exchanges](../vocal-matching/)
+
+::: {.collaboration-cta}
+::: {.collaboration-cta__content}
+## Thinking about vocal identity too?
+
+I would be glad to compare notes on datasets that combine individual classification with morphology, social history, production context, repeated recordings, or receiver-response experiments. I am also interested in syntheses that separate statistical discriminability from functional evidence.
+:::
+
+::: {.collaboration-cta__actions}
+[Email me](mailto:nakul@princeton.edu){.btn .btn-primary}
+[All six themes](../../){.btn .btn-outline-primary}
+:::
+:::

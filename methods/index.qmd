@@ -6,10 +6,14 @@ toc: false
 ---
 
 ::: {.eyebrow}
-Methods should be usable
+Methods and reproducibility
 :::
 
-This section will bring together the practical side of the research: tools I make, workflows I find useful, and carefully chosen resources for learning bioacoustics and quantitative methods.
+This section documents the analytical methods used across my research, including acoustic representation, vocal-sequence analysis, behavioural alignment, and reproducible project structure. It also collects software I develop and annotated resources for bioacoustics and time-series analysis.
+
+::: {.callout-note}
+**In progress.** The initial annotated resource collection is available. Method-specific overviews and individual software pages will be published after their documentation, validation examples, licences, and demonstration data are complete.
+:::
 
 ::: {.feature-grid}
 ::: {.feature-card}
@@ -19,40 +23,41 @@ Growing collection
 
 ### [Open Tools](tools/)
 
-Scripts, packages, and small utilities presented with examples, limitations, licensing, citation guidance, and a clear route for feedback.
+Scripts, packages, and analysis utilities documented with reproducible examples, intended scope, validation evidence, known limitations, software licences, and citation guidance.
 
-[Explore open tools](tools/)
+[Open-tools status](tools/)
 :::
 
 ::: {.feature-card}
 ::: {.status-badge .status-badge--developing}
-Being curated
+First collection live
 :::
 
 ### [Learning Resources](resources/)
 
-Tutorials, useful software, recommended methods papers, and practical starting points—with a short explanation of why each item is useful.
+Tutorials, software, and methods papers annotated by analytical purpose, prerequisites, assumptions, and relevance to bioacoustic research.
 
-[Browse resources](resources/)
+[Annotated resources](resources/)
 :::
 :::
 
-## What belongs here
+## Documentation principles
 
-- Reproducible examples that connect a research question to an analysis.
-- Honest notes about what a method can and cannot tell us.
-- Small, inspectable demonstration data rather than sensitive or unpublished datasets.
-- Multiple routes into a topic for readers with different levels of experience.
+- Reproducible examples that connect a biological hypothesis to an estimand, model, and diagnostic procedure.
+- Explicit assumptions and limits on biological interpretation.
+- Small, inspectable demonstration datasets rather than sensitive locations or unreleased primary data.
+- Clear separation between exploratory visualization, descriptive analysis, predictive performance, and confirmatory inference.
+- Versioned code, software environments, and outputs sufficient to reproduce each example.
 
 ::: {.collaboration-cta}
 ::: {.collaboration-cta__content}
-## Have an idea for a tool or workflow?
+## Building or testing a bioacoustics method?
 
-These resources are intended to be useful on their own, but I would also be excited to hear about research problems where working together could help.
+Send me a note. I enjoy comparing workflows, testing methods on new datasets, and helping turn recurring analysis problems into useful tools. The idea does not need to be fully developed before we talk about it.
 :::
 
 ::: {.collaboration-cta__actions}
-[Share an idea](../contact.qmd){.btn .btn-primary}
-[Read about the research](../research/){.btn .btn-outline-primary}
+[Email me](mailto:nakul@princeton.edu){.btn .btn-primary}
+[Research programme](../research/){.btn .btn-outline-primary}
 :::
 :::

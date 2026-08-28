@@ -4,11 +4,19 @@ page-layout: full
 toc: false
 ---
 
-If you would like to get in touch about research, collaboration, or questions about the work on this site, these are the best places to reach me.
+## Send me an email
+
+I am always happy to talk about animal communication—whether you have a research question, a strange plot, a method you are trying to make work, a possible collaboration, or simply something you found exciting.
+
+You do not need a polished proposal or a formal introduction. A short email saying hello and telling me what caught your interest is enough. If you already have a species, dataset, or question in mind, feel free to include it, but that is not a requirement.
+
+::: {.contact-welcome}
+**The easiest way to reach me:** [nakul@princeton.edu](mailto:nakul@princeton.edu)
+:::
 
 ::: {.contact-grid}
 ::: {.feature-card}
-### Email
+### Email me
 
 [nakul@princeton.edu](mailto:nakul@princeton.edu)
 :::
@@ -16,7 +24,7 @@ If you would like to get in touch about research, collaboration, or questions ab
 ::: {.feature-card}
 ### Google Scholar
 
-[Scholar profile](https://scholar.google.com/citations?user=T08iq_UAAAAJ&hl=en)
+[Publications and citations](https://scholar.google.com/citations?user=T08iq_UAAAAJ&hl=en)
 :::
 
 ::: {.feature-card}
@@ -26,9 +34,8 @@ If you would like to get in touch about research, collaboration, or questions ab
 :::
 
 ::: {.feature-card}
-### Affiliation
+### Where I work
 
-Princeton University  
-Department of Ecology and Evolutionary Biology
+[Princeton University](https://eeb.princeton.edu/) · PhD student in Ecology & Evolutionary Biology · [Carter Lab](https://socialbat.org/)
 :::
 :::

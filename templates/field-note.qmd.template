@@ -2,14 +2,14 @@
 title: "[A specific, inviting title]"
 description: "[One sentence: where, what, and why it matters]"
 date: YYYY-MM-DD
-categories: [field note, PLACE, TOPIC]
+categories: [Field Notes, PLACE, TOPIC]
 image: featured.jpg
 toc: true
 draft: true
 ---
 
 ::: {.note-chip .note-chip--field}
-Field Note
+Field Notes
 :::
 
 [Open with one concrete moment, sound, animal, challenge, or surprise. Give a

@@ -4,60 +4,118 @@ page-layout: full
 toc: false
 ---
 
-This page collects published papers, preprints, and a few ongoing lines of work. As the site grows, I will add code, slides, and supplementary material where available.
+Outputs are grouped by publication status. Current citation records are available through [Google Scholar](https://scholar.google.com/citations?user=T08iq_UAAAAJ&hl=en); code, data, and supplementary materials are linked where publicly available.
 
-## Peer-Reviewed Articles
+## Peer-Reviewed Research and Natural-History Notes
 
 ::: {.publication-stack}
 ::: {.publication-entry}
 #### Wewhare, N. and Krishnan, A. (2024)
 
 **Individual-specific associations between warble song notes and body movements in budgerigar courtship displays.**  
-*Biology Open*.  
-[DOI](https://doi.org/10.1242/bio.060497) | [First Person interview](https://journals.biologists.com/bio/article/13/10/bio061701/362431/First-person-Nakul-Wewhare)
+*Biology Open*, 13(10): bio060497.\
+[DOI](https://doi.org/10.1242/bio.060497) | [Project summary](../projects/budgerigar-multimodal-courtship.qmd) | [First Person interview](https://journals.biologists.com/bio/article/13/10/bio061701/362431/First-person-Nakul-Wewhare)
 
-This paper studies how vocal and body-movement elements align during budgerigar courtship and asks how consistent those associations are across individuals.
+Analysis of 100 courtship bouts tests associations between warble-note types and synchronized body movements, identifying population-level and individual-specific coordination patterns.
 :::
 
 ::: {.publication-entry}
-#### Madabhushi, A. J. J., Wewhare, N., Binwal, P., Agarwal, V., and Krishnan, A. (2023)
+#### Madabhushi, A. J., Wewhare, N., Binwal, P., Agarwal, V., and Krishnan, A. (2023)
 
-**Higher-order dialect variation and syntactic convergence in the complex warble song of budgerigars.**  
+**Higher-order dialectic variation and syntactic convergence in the complex warble song of budgerigars.**\
 *Journal of Experimental Biology*, 226(20): jeb245678.  
-[DOI](https://doi.org/10.1242/jeb.245678)
+[DOI](https://doi.org/10.1242/jeb.245678) | [Project summary](../projects/budgerigar-dialectic-convergence.qmd)
 
-This study examines dialect variation and convergence in complex warble song, with attention to higher-order sequence structure.
+Longitudinal comparison of two budgerigar colonies identifies colony-associated differences in higher-order warble-song structure and convergence following social contact.
 :::
 
 ::: {.publication-entry}
 #### Wewhare, N. and Pandey, U. (2021)
 
-**First record of scavenging by a checkered keelback (*Fowlea piscator*) from Western Maharashtra, India.**  
+**First record of scavenging by a Checkered keelback, *Fowlea piscator* (Schneider 1799) (Natriciidae) from Western Maharashtra, India.**\
 *Reptiles & Amphibians*, 28(2), 348-349.  
 [DOI](https://doi.org/10.17161/randa.v28i2.15638)
 :::
 :::
 
-## Preprints and Work in Progress
+## Preprints
+
+The manuscripts in this section have not yet been peer reviewed.
 
 ::: {.publication-stack}
+::: {.publication-entry}
+#### Wewhare, N., Burkart, J. M., and Wierucka, K. (2026)
+
+**Sequence-level vocal convergence in common marmosets.**\
+*bioRxiv*.\
+[Preprint](https://doi.org/10.64898/2026.03.20.713272) | [Project summary](../projects/marmoset-vocal-convergence.qmd)
+
+The preprint tests audience-dependent changes in sequence structure and individual phee-call acoustics following pair formation. The manuscript is currently in revision.
+:::
+
+::: {.publication-entry}
+#### Sarkar, R., Pal, T. S., Maji, S., Nandi, S., Lahiri, A., Basumatary, A. K., GP, A., Wewhare, N., Jahan, N., Jakhete, S., Bandyopadhyay, S., Adhikary, R., Paul, T., Majumdar, S., and Bhadra, A. (2025)
+
+**Sight, smell and more: What cues do free-ranging dogs use for decision-making while scavenging?**\
+*arXiv*, 2512.00058.\
+[Preprint](https://doi.org/10.48550/arXiv.2512.00058) | [Project summary](../projects/free-ranging-dog-decision-making.qmd)
+
+Field choice experiments evaluate how free-ranging dogs integrate visual and olfactory information across alternative food-choice conditions.
+:::
+
 ::: {.publication-entry}
 #### Dhati, A. M., Wewhare, N., Devasthale, N. S., Sundar, S., Parulekar, N., and Krishnan, A. (2025)
 
 **Vocal sequences of diverse parrots suggest an important role for note repetition.**  
 *bioRxiv*.  
-[Preprint](https://doi.org/10.1101/2025.10.24.684295)
+[Preprint](https://doi.org/10.1101/2025.10.24.684295) | [Project summary](../projects/parrot-vocal-sequences.qmd)
+
+Across six parrot species, observed sequence metrics are compared with random, Markov, hidden-Markov, and renewal models; results identify prominent note repetition and support contributions from both renewal- and Markov-like processes.
+:::
+:::
+
+## Interviews and Profiles
+
+::: {.publication-stack}
+::: {.publication-entry}
+#### Wewhare, N. (2024)
+
+**First person – Nakul Wewhare.**\
+*Biology Open*, 13(10): bio061701.\
+[Interview](https://doi.org/10.1242/bio.061701)
+
+Interview concerning research training in animal communication and the development of the budgerigar multimodal-courtship study.
+:::
+:::
+
+## Manuscripts and Analyses in Progress
+
+These entries are unpublished and should not be cited as completed publications. They document current analytical scope and are explicitly separated from peer-reviewed and preprint outputs.
+
+::: {.publication-stack}
+::: {.publication-entry}
+#### Wewhare, N. and Krishnan, A. (in preparation)
+
+**Vocal learning mediates aggressive interactions in budgerigars.**<br>
+Unpublished manuscript in final preparation.<br>
+[Project and current results](../projects/budgerigar-competition-vocal-structure.qmd)
+
+An observational analysis of associations among male aggression, mutual display, dominance, warble syntax, and learned contact-call repertoires within one mixed-sex colony. Estimates and interpretations may change during manuscript preparation and review.
 :::
 
 ::: {.publication-entry}
-#### Wewhare, N., Burkart, J. M., and Wierucka, K.
+#### Wewhare, N. (analysis in progress)
 
-**Sequence-level vocal convergence in a social primate.**  
-In preparation.
+**Vocal matching and the initiation of vampire-bat exchanges.**<br>
+Unpublished PhD research.<br>
+[Research theme](../research/themes/vocal-matching/) | [Project and visualizations](../projects/vampire-bat-vocal-matching.qmd)
+
+Preliminary models from Princeton pair recordings and Panama trio recordings test whether acoustic distance from a potential responder's recent calls predicts response probability within five seconds. Playback and behaviour-linked analyses are ongoing.
 :::
 :::
 
 ## Talks and Workshops
 
+- **Evidence that vampire bats use vocal matching to address specific group members**, contributed talk at the *20th International Society for Behavioral Ecology (ISBE)* meeting (Turin, Italy, July 2026; travel-award recipient).
 - **Quantifying syntactic convergence in common marmoset vocal sequences**, contributed talk at *Bioacoustics & AI 101: Making AI Accessible to Everybody* (University of Copenhagen, September 2024). [Recording](https://www.youtube.com/watch?v=bZplC_TDW1M)
 - Poster on budgerigar courtship displays at the *5th Conference of the Indian Society of Evolutionary Biologists* (October 2024).

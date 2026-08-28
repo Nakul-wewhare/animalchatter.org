@@ -3,16 +3,19 @@ ANIMAL CHATTER WRITING TEMPLATES
 These files are starting points, not pages on the live website. Their
 `.qmd.template` extension prevents Quarto from publishing unfinished copies.
 
-For a new Note
---------------
-1. Choose field-note, project-update, or reading-synthesis.
+For a new Blog post
+-------------------
+1. Start with blog-post.qmd.template, or choose a more specific template.
 2. Copy it into `blog/posts/YYYY-MM-DD-short-title/index.qmd`.
 3. Remove `.template` from the copied filename.
 4. Replace every instruction in square brackets.
-5. Keep `draft: true` while writing; change it to `draft: false` when ready.
+5. Choose one primary category exactly as written: Field Notes, Project
+   Updates, Reading Syntheses, or Methods & Tools.
+6. Keep `draft: true` while writing; change it to `draft: false` when ready.
 
 Posts stay inside `blog/posts` so their existing web addresses remain stable.
-They appear automatically on both the new Notes page and the old Blog archive.
+They appear automatically on the Blog page. The old `/blog/` page sends readers
+to the new Blog without changing individual post addresses.
 
 For a new tool
 --------------

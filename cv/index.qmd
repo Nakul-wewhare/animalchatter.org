@@ -9,13 +9,80 @@ toc: false
 [Research overview](../research/){.btn .btn-outline-primary}
 :::
 
+## Academic path
+
+::: {.institution-grid .institution-grid--compact}
+::: {.institution-card .institution-card--current}
+```{=html}
+<a class="institution-card__logo" href="https://eeb.princeton.edu/" aria-label="Princeton University Ecology and Evolutionary Biology">
+  <img src="../assets/images/institutions/princeton-university.png"
+       alt="Princeton University logo"
+       loading="lazy"
+       decoding="async"
+       width="3840"
+       height="2160">
+</a>
+```
+
+::: {.institution-card__body}
+[Current]{.institution-card__label}
+
+### [Princeton University](https://eeb.princeton.edu/)
+
+**PhD student · Ecology & Evolutionary Biology.** [Carter Lab](https://socialbat.org/) · 2025–present
+:::
+:::
+
+::: {.institution-card .institution-card--iiser}
+```{=html}
+<a class="institution-card__logo" href="https://www.iiserpune.ac.in/" aria-label="IISER Pune">
+  <img src="../assets/images/institutions/iiser-pune.png"
+       alt="IISER Pune logo"
+       loading="lazy"
+       decoding="async"
+       width="1080"
+       height="1080">
+</a>
+```
+
+::: {.institution-card__body}
+[Degree]{.institution-card__label}
+
+### [IISER Pune](https://www.iiserpune.ac.in/)
+
+**BS–MS Dual Degree · Biology.** 2020–2025
+:::
+:::
+
+::: {.institution-card .institution-card--jncasr}
+```{=html}
+<a class="institution-card__logo" href="https://www.jncasr.ac.in/" aria-label="Jawaharlal Nehru Centre for Advanced Scientific Research">
+  <img src="../assets/images/institutions/jncasr.png"
+       alt="JNCASR logo"
+       loading="lazy"
+       decoding="async"
+       width="200"
+       height="200">
+</a>
+```
+
+::: {.institution-card__body}
+[Thesis research]{.institution-card__label}
+
+### [JNCASR](https://www.jncasr.ac.in/)
+
+**[ECEB Lab](https://sites.google.com/view/eceb-lab) · EOBU.** 2024–2025
+:::
+:::
+:::
+
 ## Snapshot
 
 ::: {.feature-grid}
 ::: {.feature-card}
 ### Current Position
 
-PhD student in Ecology and Evolutionary Biology at Princeton University, working on animal communication, vocal learning, and sequence structure.
+PhD student in [Ecology & Evolutionary Biology at Princeton University](https://eeb.princeton.edu/) and a member of the [Carter Lab](https://socialbat.org/), working on animal communication, vocal learning, and sequence structure.
 :::
 
 ::: {.feature-card}
@@ -27,11 +94,13 @@ Bioacoustics, animal communication, social behaviour, network analysis, quantita
 ::: {.feature-card}
 ### Tools
 
-Python, R, MATLAB, Raven Pro, warbleR, GLMMs, Bayesian modeling, HMMs, sequence models, and Raspberry Pi based recording systems.
+Python, R, MATLAB, Raven Pro, warbleR, GLMMs, Bayesian modelling, HMMs, sequence models, and Raspberry Pi-based recording systems.
 :::
 :::
 
 ## Full CV
+
+The embedded document below is the same [downloadable PDF CV](Nakul_Wewhare_CV.pdf).
 
 ```{=html}
 <div class="pdf-frame">

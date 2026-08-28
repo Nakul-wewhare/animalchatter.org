@@ -1,0 +1,33 @@
+---
+title: "[The method, workflow, or tool]"
+description: "[What this post will help a reader understand or do]"
+date: YYYY-MM-DD
+categories: [Methods & Tools, TOPIC]
+toc: true
+draft: true
+---
+
+::: {.note-chip .note-chip--methods}
+Methods & Tools
+:::
+
+## The problem
+
+[What research or analysis problem does this method address?]
+
+## The approach
+
+[Explain the workflow and the important choices. Add tested code or a small
+example where useful.]
+
+## What the output means
+
+[Explain how to interpret the result, including diagnostics and uncertainty.]
+
+## Limitations
+
+[When should someone not use this method? What assumptions matter?]
+
+## Resources
+
+- [Documentation, code, paper, or example data]

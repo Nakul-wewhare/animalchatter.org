@@ -1,0 +1,124 @@
+---
+title: "Vampire-Bat Vocal Matching and Exchange Initiation"
+description: "Preliminary analyses of short-term acoustic matching, response probability, and temporal structure in vampire-bat vocal exchanges."
+date: 2026-08-28
+categories: [vampire bats, vocal matching, call sequences, work in progress]
+image: ../assets/media/bats/vampire-bat-vocal-matching-poster.jpg
+image-alt: "Blue, red, and yellow trajectories connect vampire-bat calls in a two-dimensional acoustic projection, with three spectrograms at right."
+toc: true
+---
+
+::: {.status-badge .status-badge--active}
+Active analysis
+:::
+
+::: {.callout-note}
+This page reports work in progress. Visualizations are used for exploratory analysis and hypothesis development; they do not independently demonstrate a communicative function.
+:::
+
+## Study objective
+
+The project tests whether short-term acoustic matching predicts which vampire bat responds to an incoming call, whether the association is concentrated at exchange onset, and how calls subsequently transition through the social repertoire.
+
+## Caller assignment in group recordings
+
+Group recordings require assignment of acoustic events to identified callers. When multiple bats can move and vocalize during the same interaction, a sound camera provides estimated source locations that can be aligned with synchronized video and used to associate calls with producing individuals.
+
+::: {.media-frame .media-frame--landscape}
+```{=html}
+<img class="media-frame__asset"
+     src="../assets/images/panama-2026/sound-camera-outdoor.jpg"
+     alt="A sound camera, laptop, and recording enclosure are arranged for an outdoor vampire-bat recording session in Panama."
+     loading="lazy"
+     decoding="async">
+```
+
+::: {.media-frame__caption}
+Outdoor sound-camera setup used for acoustic localization before calls are compared in an acoustic feature space. See the [Panama field-season note](../blog/posts/2026-08-28-panama-field-season/) for field and recording context.
+[Gamboa, Panama · 2026]{.media-frame__credit}
+:::
+:::
+
+## Candidate vocal-matching mechanism
+
+An initial analysis of one dataset did not provide evidence for individual vocal labels. A preliminary response-timing analysis instead detected an association consistent with vocal matching: response probability increased when an incoming call was acoustically similar to the potential responder's preceding calls.
+
+The estimated association appears concentrated in particular provisional call types and near the beginning of calling bouts. The working hypothesis is that matching contributes to recipient selection or acknowledgement during exchange initiation and declines after an interaction is established. Playback analyses are in progress; the present observational result does not distinguish this account from shared context, arousal, temporal autocorrelation, or other alternatives.
+
+## Preliminary response analysis
+
+A response was operationally defined as a call from another bat within five seconds. Acoustic distance was calculated as the minimum distance between the incoming call and the potential responder's preceding three calls. The analysis currently includes two independently collected datasets:
+
+- **Princeton pairs:** 8 female bats, 28 pairs, 84 recording hours, and 3,864 calls.
+- **Panama trios:** 11 female and 6 male bats, 26 trios, 312 recording hours, and 140,913 calls.
+
+::: {.plot-panel}
+```{=html}
+<img src="../assets/images/plots/vampire-bat-matching-results.png"
+     alt="Coefficient plots for the Princeton pair and Panama trio datasets show negative acoustic-distance effects on the probability of a response."
+     loading="lazy"
+     decoding="async">
+```
+
+::: {.plot-panel__caption}
+In both datasets, response probability within five seconds decreased as the acoustic distance between an incoming call and the potential responder's recent calls increased. The estimated association is larger in the Princeton dataset. These models are preliminary; playback experiments and behaviour-linked analyses are required before interpreting the relationship as addressing or exchange initiation.
+:::
+:::
+
+Preliminary call-type analyses suggest that the association is concentrated in a subset of provisional types and that several of those types occur relatively early in bouts. Category stability, model robustness, and function remain under active evaluation.
+
+## Acoustic-trajectory visualization
+
+::: {.media-frame .media-loop}
+```{=html}
+<video controls
+       playsinline
+       preload="metadata"
+       poster="../assets/media/bats/vampire-bat-vocal-matching-poster.jpg"
+       aria-label="Animated LFCC–UMAP trajectories of calls exchanged by three vampire bats."
+       aria-describedby="project-trajectory-description">
+  <source src="../assets/media/bats/vampire-bat-vocal-matching.mp4" type="video/mp4">
+  Your browser does not support embedded video. The description below explains the visualization.
+</video>
+```
+
+::: {#project-trajectory-description .media-frame__caption}
+Coloured trajectories represent successive calls from three bats in a two-dimensional UMAP projection of LFCC features; corresponding spectrograms appear at right. Under a matching prediction, a new call should approach another bat's recent position in the selected representation. The axes encode projected acoustic structure rather than physical location, and UMAP does not preserve all distances in the original feature space.
+:::
+:::
+
+## Operational definition of call categories
+
+A complementary analysis evaluates how a continuously varying acoustic repertoire can be partitioned into operational call categories. Alternative feature representations and clustering procedures are compared rather than treating a single projection as a definitive taxonomy. Candidate categories must be stable across analytical choices and informative for predicting behaviour or sequence position.
+
+## Current tests
+
+- Compare playback responses to candidate initiating calls and acoustically or contextually matched controls.
+- Estimate interactions between acoustic distance, bout position, and provisional call type.
+- Evaluate robustness across LFCC-based and alternative acoustic representations.
+- Compare call-transition structure within and among social groups.
+- Validate exploratory patterns with prespecified statistical models and held-out data where feasible.
+
+## Scientific significance
+
+Analyses conducted at the level of isolated call types can miss recipient selection, response contingencies, and changes in signal use across an exchange. Modelling temporal position and candidate responders jointly provides a stronger test of exchange initiation and of whether analyst-defined call categories predict the bats' observed interaction structure.
+
+## Research themes
+
+- [Vocal matching and directed exchanges](../research/themes/vocal-matching/)
+- [Call combinations and sequence learning](../research/themes/call-combinations/)
+- [Acoustic representations and contextual embeddings](../research/themes/acoustic-spaces/)
+- [Mapping bat calls back to behaviour](../research/themes/mapping-bat-social-calls/)
+
+::: {.collaboration-cta}
+::: {.collaboration-cta__content}
+## Want to compare notes?
+
+I am always happy to talk about response-timing models, playback design, acoustic representation learning, sequence analysis, or tests of socially learned call structure. A question or half-formed idea is enough reason to get in touch.
+:::
+
+::: {.collaboration-cta__actions}
+[Email me](mailto:nakul@princeton.edu){.btn .btn-primary}
+[Read the research overview](../research/){.btn .btn-outline-primary}
+:::
+:::

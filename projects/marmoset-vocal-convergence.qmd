@@ -1,23 +1,55 @@
 ---
 title: Sequence-Level Vocal Convergence in Common Marmosets
-description: "A primate project using sequence-comparison methods to test whether dyads converge on shared vocal structure."
-date: 2024-04-01
-categories: [marmosets, syntax, vocal accommodation]
+description: "A preprint testing audience-dependent changes in call-sequence structure and individual phee-call acoustics following pair formation."
+date: 2026-03-20
+categories: [marmosets, sequence structure, vocal accommodation, preprint]
 toc: true
 ---
 
-## Core Question
+::: {.status-badge .status-badge--developing}
+Public preprint · manuscript in revision
+:::
 
-Do social partners converge not only in the sound of individual calls, but also in the larger sequence structure of their vocal exchanges?
+::: {.callout-note}
+This manuscript is available on bioRxiv and is currently in revision. It has not completed peer review.
+:::
 
-## Approach
+## Study objective
 
-This work develops a sequence-comparison framework inspired by bioinformatics-style alignment, then combines it with note-level spectral measurements to test for multiple layers of vocal accommodation.
+The study tests whether pair formation is followed by convergence in sequence organization, individual phee-call acoustics, or both, and whether any change depends on the audience to which calls are directed.
 
-## What Emerged
+## Study design
 
-The project points to separable forms of encoding: individual identity in spectral call features and dyad identity in sequence-level structure.
+Three male and three female common marmosets were recorded in all nine possible male–female combinations. After three permanent pairs were formed and co-housed, the recording design was repeated four months later. Calls were therefore compared before and after pair formation and separately for partner and non-partner audiences.
 
-## Broader Goal
+## Acoustic and sequence representations
 
-The larger ambition is to move beyond single-call analysis and treat vocal sequences as structured social behaviour in their own right.
+Sequence similarity was quantified using transition probabilities, bigram distributions, repeat-length distributions, and local sequence alignment. Individual phee-call similarity was quantified using spectro-temporal measurements, MFCC representations, constrained dynamic time warping, and a variational autoencoder.
+
+The use of multiple representations at both levels tests whether the estimated pattern is robust to a particular feature set or distance metric.
+
+## Results reported in the preprint
+
+Following pair formation, partners showed increased sequence similarity when calling to non-partners. The combined model and three of four sequence measures supported this pattern; repeat-length distributions showed no clear change in the non-partner condition. No comparable convergence was detected in partner-directed sequences. Individual phee-call acoustics showed no clear convergence in either audience context across the four representations.
+
+The estimated sequence-level change was therefore audience dependent rather than a general increase in similarity between partners. This pattern supports socially contingent plasticity in sequence production while leaving the underlying mechanism unresolved.
+
+One interpretation is that sequence organization forms a pair-associated signature expressed toward non-partners. The production data support sequence-level flexibility, but do not establish receiver recognition, shared meaning, or a learned convention.
+
+## Interpretation
+
+Studies of vocal accommodation often emphasize the acoustic form of individual calls. These results show that sequence order and repetition can vary independently of individual-call acoustics and that audience context is necessary for interpreting convergence estimates.
+
+## Limitations and planned tests
+
+The study includes three pairs, and one pair lacked partner-after observations. The four-month interval between recording periods was not accompanied by an unpaired control group or repeated pre-pairing baseline; temporal drift, arousal, and other pair-specific changes therefore cannot be excluded. Playback or interactive experiments are required to test receiver perception and whether the convergent sequence features communicate pair affiliation.
+
+## Research themes
+
+- [Call combinations and sequence learning](../research/themes/call-combinations/)
+- [Acoustic representations and contextual embeddings](../research/themes/acoustic-spaces/)
+- [Identity: passive cue or active signal?](../research/themes/identity-cue-or-signal/)
+
+## Preprint
+
+Wewhare, N., Burkart, J. M., and Wierucka, K. (2026). **Sequence-level vocal convergence in common marmosets.** *bioRxiv*. [Read the preprint](https://doi.org/10.64898/2026.03.20.713272).

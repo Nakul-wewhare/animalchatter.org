@@ -1,0 +1,64 @@
+---
+title: "Competitive Interactions and Learned Vocal Structure in Budgerigars"
+description: "An unpublished observational study of aggression, display, dominance, warble syntax, and contact-call sharing in a mixed-sex budgerigar colony."
+date: 2026-08-28
+categories: [budgerigars, competition, vocal learning, social networks, manuscript in preparation]
+toc: true
+---
+
+::: {.status-badge .status-badge--developing}
+Unpublished · manuscript in final preparation
+:::
+
+::: {.callout-note}
+These unpublished results are presented prior to peer review and may change during manuscript preparation. The analyses are observational: reported relationships are associations within one colony and do not establish causal effects.
+:::
+
+## Study objective
+
+The study tests whether male–male aggression, display relationships, and dominance position are associated with dyadic similarity in warble syntax and learned contact-call repertoires.
+
+## Study design and analysis
+
+Seven males and six females were observed in a captive colony for four weeks, yielding 3,306 annotated directed social interactions. Acoustic analyses included 228 warble sequences and 5,827 contact-call-like notes from six vocalizing males.
+
+Warble syntax was quantified using local sequence alignment, trigram structure, and note co-occurrence. Contact-call similarity was estimated with normalized dynamic time warping; UMAP and density-based clustering were then used to define candidate subtypes. Dyadic and node-level Bayesian models related vocal measures to aggression, display, dominance-rank difference, and network position.
+
+## Preliminary results
+
+The colony exhibited a stable, female-biased dominance hierarchy. Warble syntax and contact-call acoustics showed substantial individual structure, including acoustic individuality within candidate subtypes shared by multiple males.
+
+- Dyads with higher rates of aggression had more similar warble syntax and shared more candidate call subtypes.
+- Dyads with higher rates of mutual display produced more acoustically distinct variants within shared subtypes and a lower proportion of calls assigned to those shared categories.
+- Shared display toward the same female was not associated with a clearly detected acoustic effect.
+- Smaller dominance-rank differences were associated with greater similarity for one syntax measure.
+- Higher-ranking males occupied more connected positions in the candidate call-subtype-sharing network.
+
+## Interpretation and alternative hypotheses
+
+The results indicate that learned repertoire structure covaries with competitive as well as display relationships. Aggression-associated similarity could arise through competitive matching, appeasement, shared exposure, or another consequence of repeated interaction; the present design cannot distinguish among these mechanisms.
+
+Display-associated acoustic divergence is compatible with the maintenance of individually distinguishable variants within a shared repertoire, but a signalling function has not been tested. The rank association motivates a **network-level dominance-indicator hypothesis** in which status covaries with a male's connectivity in the learned call-sharing network rather than with a single stereotyped call. This remains a hypothesis for experimental evaluation.
+
+## Limitations and planned tests
+
+Inference is limited to one captive colony and six acoustically sampled males. One male did not vocalize, and another lacked observations from the final week. Standardized recording contexts did not consistently reproduce naturally observed female-directed relationships. Experimental manipulation of social exposure, dominance relationships, or acoustic similarity is required to test causal direction and assess generality across colonies.
+
+## Themes connected by this project
+
+- [Call combinations and sequence learning](../research/themes/call-combinations/)
+- [Acoustic representations and contextual embeddings](../research/themes/acoustic-spaces/)
+- [Identity: passive cue or active signal?](../research/themes/identity-cue-or-signal/)
+
+::: {.collaboration-cta}
+::: {.collaboration-cta__content}
+## Working on a related question?
+
+I would be glad to compare notes on replicated colony designs, dominance and multilayer-network models, learned-repertoire metrics, or experiments that separate interaction-driven matching from shared acoustic exposure. If one of those overlaps with your work, send me an email.
+:::
+
+::: {.collaboration-cta__actions}
+[Email me](mailto:nakul@princeton.edu){.btn .btn-primary}
+[Browse all research](../research/){.btn .btn-outline-primary}
+:::
+:::

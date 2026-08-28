@@ -1,0 +1,119 @@
+---
+pagetitle: "Behavioural Annotation of Bat Social Calls"
+description: "Synchronized acoustic localization and video annotation linking vampire-bat calls to callers, recipients, behaviours, and sequence context."
+page-layout: full
+toc: true
+toc-depth: 2
+---
+
+::: {.theme-page-hero}
+::: {.theme-page-hero__number}
+05
+:::
+
+::: {.theme-page-hero__copy}
+::: {.eyebrow}
+Mapping the social repertoire
+:::
+
+# Linking acoustic events to callers and social behaviour
+
+The social vocal repertoire of common vampire bats remains less functionally characterized than their echolocation signals. In group recordings, inference requires linking each acoustic event to the producing individual, candidate recipient, concurrent behaviour, and temporal position within an interaction.
+
+::: {.status-badge .status-badge--active}
+Active data annotation
+:::
+
+[Last updated 28 August 2026]{.theme-page-hero__updated}
+:::
+:::
+
+::: {.callout-note}
+This page documents an active data-integration and annotation workflow. Behavioural categories, provisional call classes, and inferred acoustic–behavioural associations may change as annotation reliability and localization accuracy are evaluated.
+:::
+
+## Synchronized acoustic localization and video
+
+::: {.media-frame .media-loop .media-loop--wide}
+```{=html}
+<video controls
+       playsinline
+       preload="metadata"
+       poster="../../../assets/media/bats/vampire-bat-sound-camera-poster.jpg"
+       aria-label="Sound-camera recording of vampire bats with synchronized acoustic localization and spectrogram panels."
+       aria-describedby="sound-camera-video-description">
+  <source src="../../../assets/media/bats/vampire-bat-sound-camera.mp4" type="video/mp4">
+  Your browser does not support embedded video. The caption below describes the recording.
+</video>
+```
+
+::: {#sound-camera-video-description .media-frame__caption}
+The grayscale panel shows interacting bats; coloured localization markers estimate sound-source positions, while the panels at right display synchronized acoustic channels and spectrograms. The source screen recording retains its playback controls and audio. These aligned streams support assignment of calls and call combinations to candidate callers and concurrent behaviours.
+:::
+:::
+
+Localization uncertainty, occlusion, movement, and overlapping calls can all affect caller assignment. The analysis therefore requires explicit confidence criteria and validation against segments in which caller identity is independently recoverable.
+
+## Annotation and validation workflow
+
+::: {.process-row}
+::: {.process-step}
+`01`
+
+### Localize
+
+Estimate the spatial source of each call while multiple bats can move and vocalize.
+:::
+
+::: {.process-step}
+`02`
+
+### Identify
+
+Associate each localized source with an identified individual in synchronized video and record assignment confidence.
+:::
+
+::: {.process-step}
+`03`
+
+### Describe
+
+Annotate behaviour, candidate recipient, interaction context, and preceding and subsequent calls.
+:::
+
+::: {.process-step}
+`04`
+
+### Test
+
+Test whether call types and transitions improve behavioural prediction relative to models containing timing, caller identity, recipient identity, and interaction context.
+:::
+:::
+
+## Analyses enabled by linked data
+
+- Estimate whether particular call types are enriched at the onset, continuation, or termination of an exchange.
+- Model associations between call combinations and approach, contact, grooming, competition, or withdrawal.
+- Test whether the behavioural distribution of an acoustic unit depends on recipient identity or preceding sequence context.
+- Compare population differences in sequence structure after accounting for behavioural composition and recording design.
+- Validate computationally inferred context relationships against annotated behaviour and playback responses.
+
+## Related fieldwork and analyses
+
+- [Listening in Panama: from field sites to acoustic space](../../../blog/posts/2026-08-28-panama-field-season/)
+- [Vampire-bat vocal matching and exchange initiation](../../../projects/vampire-bat-vocal-matching.qmd)
+- [Vocal matching and directed exchanges](../vocal-matching/)
+- [Acoustic representations and contextual embeddings](../acoustic-spaces/)
+
+::: {.collaboration-cta}
+::: {.collaboration-cta__content}
+## Working on sound and behaviour?
+
+I am always happy to compare notes on annotation, multi-animal tracking, acoustic localization, caller assignment, or models of temporally dependent social interactions.
+:::
+
+::: {.collaboration-cta__actions}
+[Email me](mailto:nakul@princeton.edu){.btn .btn-primary}
+[All six themes](../../){.btn .btn-outline-primary}
+:::
+:::

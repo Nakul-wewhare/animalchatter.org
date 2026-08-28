@@ -2,12 +2,12 @@
 title: Launching Animal Chatter
 description: "A short note on what this website is for and what will appear here."
 date: 2026-03-19
-categories: [website, research notes]
+categories: [Website]
 toc: false
 ---
 
-This site is a home for my research on animal communication, bioacoustics, and vocal sequence structure.
+Animal Chatter is the public home for my research on animal communication, bioacoustics, vocal learning, and vocal sequences.
 
-I wanted one place where papers, ongoing work, short explanations, and a current CV are easy to find without sending people through several different links.
+This blog is where I will share **Field Notes**, **Project Updates**, **Reading Syntheses**, and **Methods & Tools**. Expect short posts with photographs, figures, videos, and questions from work in progress.
 
-Over time, I plan to use the blog for short research notes, pointers to new papers, and writing that sits somewhere between a lab notebook and a public-facing article.
+When a result is preliminary or an interpretation may change, I will say so directly and link to the relevant project or publication.

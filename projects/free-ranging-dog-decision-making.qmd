@@ -1,0 +1,39 @@
+---
+title: Sensory Decision-Making in Free-Ranging Dogs
+description: "A collaborative field study of visual and olfactory cue use during food-choice decisions by free-ranging dogs."
+date: 2025-11-22
+categories: [free-ranging dogs, foraging, sensory ecology, preprint]
+toc: true
+---
+
+::: {.status-badge}
+Preprint · posted November 2025
+:::
+
+::: {.callout-note}
+This manuscript is available on arXiv and has not yet been peer reviewed.
+:::
+
+## Study objective
+
+The study tests how free-ranging dogs integrate visual and olfactory information during food choice and whether cue use follows a consistent sensory hierarchy across choice conditions.
+
+## Experimental approach
+
+Field experiments separated and recombined visual and olfactory information during food-choice trials with free-ranging dogs. Contrasts among conditions tested whether dogs followed a fixed cue hierarchy or altered choice behaviour with the perceptual alternatives available.
+
+The project originated during an internship with the Dog Lab at IISER Kolkata, where I contributed to the design and implementation of field experiments on sensory cues and scavenging decisions.
+
+## Results reported in the preprint
+
+The analyses found limited prioritization of olfactory over visual cues in dichromatic choice tests, while choice patterns were less distinct when perceptual alternatives were more similar. Dogs sometimes selected an intermediate-quality option when the preferred option was unavailable, a pattern interpreted in the preprint as consistent with a speed–accuracy trade-off. The analyses also detected a left-side choice bias.
+
+The authors interpret the combined results as evidence for context-dependent integration of multiple cues under environmental uncertainty and risk. This interpretation remains provisional pending peer review and independent replication.
+
+## Interpretation
+
+Free-ranging dogs provide a field system for examining multisensory decisions under variable conditions in human-dominated environments. The design emphasizes context-dependent cue integration rather than treating sensory modalities as independent or hierarchically fixed.
+
+## Preprint
+
+Sarkar, R., Pal, T. S., Maji, S., Nandi, S., Lahiri, A., Basumatary, A. K., GP, A., Wewhare, N., Jahan, N., Jakhete, S., Bandyopadhyay, S., Adhikary, R., Paul, T., Majumdar, S., and Bhadra, A. (2025). **Sight, smell and more: What cues do free-ranging dogs use for decision-making while scavenging?** *arXiv*, 2512.00058. [Read the preprint](https://doi.org/10.48550/arXiv.2512.00058).

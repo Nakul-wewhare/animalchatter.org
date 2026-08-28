@@ -1,0 +1,186 @@
+---
+pagetitle: "Constructing and Validating Acoustic Spaces"
+description: "How signal representations, distance metrics, dimensionality reduction, and clustering shape inferences about animal vocal repertoires."
+page-layout: full
+toc: true
+toc-depth: 2
+---
+
+::: {.theme-page-hero}
+::: {.theme-page-hero__number}
+03
+:::
+
+::: {.theme-page-hero__copy}
+::: {.eyebrow}
+Acoustic representation & repertoire structure
+:::
+
+# Constructing and validating acoustic spaces
+
+An acoustic space is a quantitative representation of variation among vocalizations. Its geometry depends on choices about signal features, temporal alignment, distance metrics, and dimensionality reduction. I study how those choices affect estimates of similarity, repertoire continuity, and candidate call types.
+
+::: {.status-badge .status-badge--developing}
+Methods research in development
+:::
+
+[Last updated 28 August 2026]{.theme-page-hero__updated}
+:::
+:::
+
+::: {.callout-note}
+This page describes an active methods programme and includes exploratory visualizations of unpublished data. The displayed categories are provisional analytical units, not a validated taxonomy of vampire-bat calls.
+:::
+
+## What an acoustic space represents
+
+Each recording begins as a time-varying pressure signal. Constructing an acoustic space converts that signal into a set of measurements in which the distance between two calls has an explicit operational meaning. The principal analytical decisions occur at four distinct stages:
+
+::: {.pipeline-strip aria-label="Four stages in constructing and interpreting an acoustic space"}
+::: {.pipeline-strip__step}
+`01` **Represent**
+
+Encode spectro-temporal structure
+:::
+::: {.pipeline-strip__arrow}
+→
+:::
+::: {.pipeline-strip__step}
+`02` **Compare**
+
+Define pairwise dissimilarity
+:::
+::: {.pipeline-strip__arrow}
+→
+:::
+::: {.pipeline-strip__step}
+`03` **Project**
+
+Visualize high-dimensional variation
+:::
+::: {.pipeline-strip__arrow}
+→
+:::
+::: {.pipeline-strip__step}
+`04` **Discretize**
+
+Evaluate candidate call types
+:::
+:::
+
+These stages should not be conflated. A two-dimensional projection is not the underlying feature space, and a cluster boundary drawn on a projection does not by itself demonstrate that animals produce or perceive a discrete call category.
+
+## Alternative representations preserve different signal properties
+
+I compare complementary representations rather than treating any one encoding as a neutral description of the signal.
+
+::: {.question-grid}
+::: {.question-card}
+### Spectrograms
+
+Time–frequency energy preserves relatively detailed signal structure, but produces a high-dimensional representation that is sensitive to alignment, windowing, and recording conditions.
+:::
+
+::: {.question-card}
+### MFCC and LFCC features
+
+Cepstral coefficients provide compact descriptions of spectral shape. Mel-frequency and linear-frequency filter banks weight frequency structure differently and may therefore emphasize different sources of call variation.
+:::
+
+::: {.question-card}
+### Temporally aligned distances
+
+Dynamic time warping compares trajectories while allowing local differences in duration and timing. Its interpretation depends on the acoustic features, alignment constraints, and normalization used.
+:::
+
+::: {.question-card}
+### Learned latent representations
+
+Variational autoencoders and related models learn compressed representations from the observed corpus. They can capture nonlinear structure, but their geometry is data- and model-dependent and requires independent validation.
+:::
+:::
+
+## From continuous variation to candidate call types
+
+::: {.media-frame .media-loop .media-loop--wide}
+```{=html}
+<video controls
+       playsinline
+       preload="metadata"
+       poster="../../../assets/media/bats/vampire-bat-acoustic-repertoire-poster.jpg"
+       aria-label="Vampire-bat calls displayed first in a continuous LFCC–UMAP acoustic space and then with provisional call-type labels."
+       aria-describedby="theme3-repertoire-description">
+  <source src="../../../assets/media/bats/vampire-bat-acoustic-repertoire.mp4" type="video/mp4">
+  Your browser does not support embedded video. The caption below describes the visualization.
+</video>
+```
+
+::: {#theme3-repertoire-description .media-frame__caption}
+Each point is a vampire-bat call encoded with LFCC features and projected into two dimensions with UMAP. The recording moves from the continuous distribution of calls to a provisional partition into candidate call types while retaining the selected call's spectrogram for inspection. UMAP is useful for visualizing local neighbourhoods, but it does not preserve all distances or global geometry. The coloured regions are therefore hypotheses about repertoire organization, not evidence that the repertoire is intrinsically discrete.
+:::
+:::
+
+Many repertoires contain both dense regions and gradual transitions. Discretization may still be useful for testing call sequences or behavioural associations, but the validity of those units must be evaluated rather than assumed. I am testing whether inferred types are stable across feature representations, clustering procedures, resampled datasets, callers, social contexts, and recording conditions.
+
+## Validation criteria
+
+::: {.process-row}
+::: {.process-step}
+`01`
+
+### Technical validity
+
+Quantify sensitivity to signal quality, preprocessing, temporal alignment, hyperparameters, and projection distortion.
+:::
+
+::: {.process-step}
+`02`
+
+### Statistical robustness
+
+Measure stability across representations, clustering methods, held-out recordings, individuals, populations, and sampling effort.
+:::
+
+::: {.process-step}
+`03`
+
+### Biological validity
+
+Test whether distances or candidate categories predict caller identity, behaviour, audience, social relationship, or response in controlled playback experiments.
+:::
+:::
+
+## Acoustic similarity is not contextual similarity
+
+An acoustic space compares calls using properties of the signals themselves. A contextual embedding such as word2vec instead compares discrete units according to the sequence environments in which they occur. Two acoustically dissimilar calls could occupy similar contextual positions, and two acoustically similar calls could be used in different contexts. These are complementary analyses, but they answer different questions and require different validation.
+
+[Read the separate contextual-embedding pipeline project](../../../projects/contextual-embeddings-vocal-sequences.qmd).
+
+## Current analytical questions
+
+- Which conclusions about call similarity remain stable across spectrogram, MFCC, LFCC, dynamic-time-warping, and learned representations?
+- Does the apparent balance between continuous variation and discrete structure change across individuals or recording contexts?
+- Which clustering results generalize to held-out recordings rather than describing one sampled dataset?
+- Do acoustic distances or candidate call types improve predictions of behaviour and receiver response?
+- When should sequence models retain continuous acoustic variation rather than replace calls with categorical tokens?
+
+## Related projects
+
+- [Vampire-bat conversations in acoustic space](../../../projects/vampire-bat-vocal-matching.qmd)
+- [Contextual embeddings for vocal sequences](../../../projects/contextual-embeddings-vocal-sequences.qmd)
+- [Sequence-level vocal convergence in common marmosets](../../../projects/marmoset-vocal-convergence.qmd)
+- [Competition, rank, and learned vocal structure in budgerigars](../../../projects/budgerigar-competition-vocal-structure.qmd)
+- [Methods and learning resources](../../../methods/)
+
+::: {.collaboration-cta}
+::: {.collaboration-cta__content}
+## Want to compare acoustic spaces?
+
+I am always happy to compare representations, validation choices, or behaviourally annotated datasets. I am particularly interested in benchmarks that combine computational robustness with independent biological outcomes, but an early question or puzzling result is also welcome.
+:::
+
+::: {.collaboration-cta__actions}
+[Email me](mailto:nakul@princeton.edu){.btn .btn-primary}
+[All six themes](../../){.btn .btn-outline-primary}
+:::
+:::

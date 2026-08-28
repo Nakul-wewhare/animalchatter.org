@@ -2,13 +2,13 @@
 title: "[Project name]: [what changed]"
 description: "[A concise account of this update and why it matters]"
 date: YYYY-MM-DD
-categories: [project update, TOPIC, SPECIES]
+categories: [Project Updates, TOPIC, SPECIES]
 toc: true
 draft: true
 ---
 
 ::: {.note-chip .note-chip--project}
-Project Update
+Project Updates
 :::
 
 ::: {.status-badge .status-badge--active}

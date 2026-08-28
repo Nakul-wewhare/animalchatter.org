@@ -1,0 +1,40 @@
+---
+title: Dialectic Variation and Sequence Convergence in Budgerigars
+description: "A peer-reviewed longitudinal study of colony-specific warble-song syntax before and after contact between two social groups."
+date: 2023-10-15
+categories: [budgerigars, dialects, sequence structure, social learning]
+toc: true
+---
+
+::: {.status-badge}
+Peer-reviewed article · 2023
+:::
+
+## Study objective
+
+The study tests whether captive budgerigar colonies differ in higher-order warble-song structure and whether colony-associated sequence patterns change after previously separate groups come into contact.
+
+## Longitudinal comparison
+
+Warble songs were compared between two captive budgerigar colonies. Sequence structure was quantified at multiple levels, including note repetition and transition structure, and the same individuals were subsequently analysed after contact between the colonies.
+
+The longitudinal design tested both initial colony differentiation and the stability of sequence-level structure following a change in social environment.
+
+## Results
+
+The colonies initially differed in warble-song syntax, and repeated-note motifs provided higher-order signatures of colony membership. Following contact, sequence structure converged and the original colony-specific repetition patterns were no longer detected.
+
+The longitudinal change provides evidence that socially mediated vocal plasticity extends beyond individual note acoustics to the temporal organization of complex sequences in adults.
+
+## Interpretation
+
+Acoustic dialect research often emphasizes the structure of individual calls. These results show that colony differentiation can also occur in note order and repetition, and that these higher-order properties can change following contact between social groups.
+
+## Research themes
+
+- [Call combinations and sequence learning](../research/themes/call-combinations/)
+- [Linguistic laws and meaningful exceptions](../research/themes/linguistic-laws/)
+
+## Publication
+
+Madabhushi, A. J., Wewhare, N., Binwal, P., Agarwal, V., and Krishnan, A. (2023). **Higher-order dialectic variation and syntactic convergence in the complex warble song of budgerigars.** *Journal of Experimental Biology*, 226(20): jeb245678. [Read the paper](https://doi.org/10.1242/jeb.245678).

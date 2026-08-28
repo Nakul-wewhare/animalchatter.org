@@ -1,58 +1,182 @@
 ---
-title: Resources
-description: "Curated tutorials, packages, methods papers, and practical bioacoustics workflows."
+pagetitle: Resources
+description: "A curated starting route through sound analysis, acoustic spaces, animal vocal sequences, and time-series methods."
 page-layout: full
-toc: false
+toc: true
+toc-depth: 2
 ---
 
-::: {.eyebrow}
-A guided route through bioacoustics
+::: {.theme-page-hero .theme-page-hero--compact}
+::: {.theme-page-hero__number}
+R
 :::
 
-This page will collect resources that are genuinely useful for learning and doing bioacoustics. Instead of becoming a long unannotated link list, each recommendation will explain what it teaches, what background it assumes, and when it becomes useful in a real project.
+::: {.theme-page-hero__copy}
+::: {.eyebrow}
+Annotated methods resources
+:::
+
+# Bioacoustics and vocal-sequence methods
+
+This annotated collection focuses on resources for moving from raw audio to acoustic representations, time-series comparisons, and analyses of vocal sequences. Entries are selected for methodological clarity, reusable implementations, or explicit treatment of assumptions and validation. The collection will expand as the methods section develops.
+
+::: {.status-badge .status-badge--developing}
+In progress · more resources coming
+:::
+:::
+:::
+
+## Foundations in signal analysis
 
 ::: {.feature-grid}
 ::: {.feature-card}
-### Video tutorials
+::: {.note-chip .note-chip--methods}
+Video course
+:::
 
-Approachable demonstrations of recording, annotation, acoustic measurement, visualization, and analysis.
+### [The Sound of AI: Audio Signal Processing for Machine Learning](https://www.youtube.com/watch?v=iCwMQJnKk2c&list=PL-wATfeyAMNqIee7cH3q1bh4QJFAaeNv0)
+
+A long-form series by Valerio Velardo covering waveforms, frequency-domain analysis, Fourier transforms, spectrograms, MFCCs, and machine-learning applications. The sequence is useful for developing the signal-processing foundations required to evaluate an audio-analysis pipeline.
+
+**Recommended for:** a structured introduction from signal-processing fundamentals to applied audio machine learning.
+
+[Course website](https://valeriovelardo.com/the-sound-of-ai/)
 :::
 
 ::: {.feature-card}
-### Software and packages
+::: {.note-chip .note-chip--tool}
+Python package
+:::
 
-Useful tools in R, Python, and specialist bioacoustics software, grouped by the problem they solve.
+### [`chatter`: acoustic-space workflows](https://masonyoungblood.github.io/chatter/)
+
+Mason Youngblood's package supports configurable preprocessing, segmentation, spectrogram construction, and learned acoustic representations from collections of WAV files. The documentation makes frequency limits, normalization, denoising, segmentation, and VAE architecture explicit.
+
+**Recommended for:** constructing and inspecting acoustic spaces while retaining a transparent record of preprocessing and representation choices. Begin with the preparation guide and then consult the species vignettes.
+
+[Preparation guide](https://masonyoungblood.github.io/chatter/contents/preparation.html) · [GitHub](https://github.com/masonyoungblood/chatter) · [Methods preprint](https://doi.org/10.48550/arXiv.2512.17935)
+:::
+:::
+
+## Methodological reading
+
+::: {.publication-stack}
+::: {.publication-entry}
+#### Wierucka et al. (2025) · comparing acoustic features and classifiers
+
+**[Same data, different results? Machine learning approaches in bioacoustics](https://doi.org/10.1111/2041-210X.70091)**<br>
+*Methods in Ecology and Evolution*, 16: 1574–1586.
+
+The study compares spectro-temporal features, LFCCs, MFCCs, and highly comparative time-series features with four classifiers across 16 mammalian datasets. MFCCs paired with random forests performed most consistently across the evaluated datasets, sample sizes, and numbers of individuals. More generally, the analysis shows that estimates of vocal individuality depend on the selected representation and classifier; machine discrimination among callers does not by itself demonstrate identity information used by receivers.
+
+**Use it when:** choosing a baseline for caller classification, planning sample-size checks, or explaining why several representations should be compared.
+
+[Data and analysis code](https://doi.org/10.6084/m9.figshare.29209976.v1)
+:::
+
+::: {.publication-entry}
+#### Kershenbaum et al. (2016) · a framework for acoustic sequences
+
+**[Acoustic sequences in non-human animals: a tutorial review and prospectus](https://doi.org/10.1111/brv.12160)**<br>
+*Biological Reviews*, 91: 13–52.
+
+A tutorial review organized around three problems: identifying sequence units, specifying how information may be distributed across them, and analysing sequence structure. It provides a comparative framework for terminology, models, null expectations, and inferential limitations.
+
+**Use it when:** defining the units, hypotheses, and null models of a vocal-sequence study before selecting a summary statistic.
+:::
+
+::: {.publication-entry}
+#### Kershenbaum et al. (2014) · testing the Markov assumption
+
+**[Animal vocal sequences: not the Markov chains we thought they were](https://doi.org/10.1098/rspb.2014.1370)**<br>
+*Proceedings of the Royal Society B*, 281: 20141370.
+
+This comparative study evaluates whether vocal sequences are better described by finite-order Markov chains or repetition-dominated renewal processes. It demonstrates the need to test the assumed generative model and to treat repetition as a potentially central component of sequence organization.
+
+**Use it when:** comparing candidate sequence models or building null processes for repetition.
+:::
+
+::: {.publication-entry}
+#### Gilman et al. (2025) · formally testing the law of abbreviation
+
+**[Does Zipf's law of abbreviation shape birdsong?](https://doi.org/10.1371/journal.pcbi.1013228)**<br>
+*PLOS Computational Biology*.
+
+A statistical framework for testing whether more frequent song elements are shorter. It is useful for distinguishing exploratory duration-frequency patterns from evidence that accounts for individual variation and alternative explanations.
+
+**Use it when:** moving from an exploratory linguistic-law pattern to a defensible test.
+:::
+:::
+
+## Dynamic time warping and time-series analysis
+
+::: {.feature-grid}
+::: {.feature-card}
+### [A rigorous DTW tutorial](https://doi.org/10.1145/2939672.2945383)
+
+Mueen and Keogh's **Extracting Optimal Performance from Dynamic Time Warping** explains what DTW measures, how constraints change it, and how exact search can be accelerated. The [official tutorial PDF](https://www.cs.unm.edu/~mueen/DTW.pdf) is best for readers who already understand basic time-series distance.
 :::
 
 ::: {.feature-card}
-### Methods papers
+### [Eamonn Keogh's time-series tutorials](https://www.cs.ucr.edu/~eamonn/tutorials.html)
 
-Recommended papers with a short note on the central idea, practical value, assumptions, and limitations.
+A broad collection on time-series representation, similarity, indexing, clustering, classification, and [motif discovery](https://www.cs.ucr.edu/~eamonn/TimeSeriesMotifs/). The material is not specific to bioacoustics, but many acoustic-similarity problems require a time-series formulation before biological interpretation.
 :::
 
 ::: {.feature-card}
-### Field-to-analysis workflows
+### [The UCR Suite](https://www.cs.ucr.edu/~eamonn/UCRsuite.html)
 
-Practical pathways from recorder setup and metadata to quality checks, reproducible analysis, and archiving.
+Reference implementation and background for exact subsequence search under DTW and Euclidean distance, with the [associated KDD paper](https://doi.org/10.1145/2339530.2339576). It is most relevant when a short query must be located inside very long time series.
+:::
+
+::: {.feature-card}
+### [Audio motif discovery](https://doi.org/10.1109/ICDM.2013.30)
+
+Hao and colleagues' **Parameter-Free Audio Motif Discovery in Large Data Archives** connects general time-series methods to repeated acoustic patterns. The [official UCR manuscript](https://www.cs.ucr.edu/~eamonn/ICDMcameraready.pdf) describes motif discovery in large archives without requiring all sounds to be assigned to categories in advance.
 :::
 :::
 
-## Planned learning paths
+::: {.callout-warning}
+DTW can align signals that differ in temporal rate, but alignment flexibility does not establish biological validity. The feature series, normalization, global constraint, local cost, and warping window should follow from the biological hypothesis. Alignment paths should be inspected, and the resulting distance should be validated against an independent outcome such as caller identity, behavioural context, or receiver response.
+:::
 
-1. **Starting with sound** — recordings, spectrograms, annotation, and acoustic features.
-2. **Working reproducibly** — project organization, metadata, code, and version control.
-3. **Studying sequences** — units, transitions, alignment, and higher-order structure.
-4. **Connecting sound and social life** — behavioural data, interaction, and social networks.
+## Planned additions
+
+::: {.question-grid}
+::: {.question-card}
+### Acoustic spaces
+
+Preprocessing, feature extraction, distance structure, dimensionality reduction, clustering, representation validation, and uncertainty.
+:::
+
+::: {.question-card}
+### Vocal sequences
+
+Unit definitions, transition models, repetition, local alignment, generative null models, and audience effects.
+:::
+
+::: {.question-card}
+### Sound plus behaviour
+
+Synchronization of audio, video, caller identity, behavioural annotation, spatial position, and social context.
+:::
+
+::: {.question-card}
+### Reproducible projects
+
+Metadata standards, versioned code and environments, demonstration data, automated tests, and explicit validation status.
+:::
+:::
 
 ::: {.collaboration-cta}
 ::: {.collaboration-cta__content}
-## Recommend something excellent
+## Found a resource I should add?
 
-If a tutorial, package, dataset, or paper has changed how you work, you are welcome to suggest it. Recommendations will be credited when added.
+Send it my way. I am always happy to discover a useful tutorial, software package, benchmark dataset, or methods paper. A link and one line about why you found it helpful is enough; selected additions will be credited and annotated.
 :::
 
 ::: {.collaboration-cta__actions}
-[Suggest a resource](../../contact.qmd){.btn .btn-primary}
-[Browse open tools](../tools/){.btn .btn-outline-primary}
+[Email me](mailto:nakul@princeton.edu){.btn .btn-primary}
+[Open tools · coming soon](../tools/){.btn .btn-outline-primary}
 :::
 :::

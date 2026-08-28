@@ -1,23 +1,32 @@
 ---
 title: Social Networks and Vocal Learning in Budgerigars
-description: "A thesis project on how fission-fusion social structure predicts longitudinal change in vocal repertoires."
+description: "A completed master's thesis linking fission–fusion social-network structure to longitudinal variation in budgerigar vocal repertoires."
 date: 2025-03-01
-categories: [budgerigars, vocal learning, social networks]
+categories: [budgerigars, vocal learning, social networks, master's thesis]
 toc: true
 ---
 
-## Core Question
+::: {.status-badge}
+Completed master's thesis
+:::
 
-How does social position influence what individuals learn, repeat, and retain in their vocal repertoires over time?
+## Study objective
+
+The thesis tests whether longitudinal change in individual vocal repertoires is associated with position and relationship structure within experimentally manipulated fission–fusion social networks.
 
 ## Approach
 
-This project combines controlled colony experiments, manual behavioural observations, automated video capture, and acoustic analysis to connect shifting social relationships with changes in warble song structure.
+The project combined controlled colony experiments, manual behavioural annotation, automated video capture, social-network analysis, and acoustic analysis. Network-derived predictors were related to acoustic structure at the note, motif, and sequence levels as group composition and social relationships changed.
 
-## Why It Matters
+## Scientific context
 
-Budgerigars offer a powerful system for asking how vocal learning unfolds inside real social networks rather than in isolated pairs. The broader goal is to understand how communication systems change when social worlds change.
+Budgerigars permit repeated measurement of learned vocal behaviour within dynamic social groups. The project addresses whether network position and changing association patterns explain vocal change beyond effects that can be estimated from isolated dyads.
 
-## Current Direction
+## Project status
 
-The thesis focuses on fission-fusion experiments in lab colonies and links network-derived predictors to acoustic structure at note, motif, and sequence levels.
+This work formed the master's thesis for my BS–MS degree at IISER Pune. I conducted the research in the [ECEB Lab](https://sites.google.com/view/eceb-lab) at JNCASR under the supervision of Anand Krishnan. No public manuscript or associated analysis package is currently linked; those outputs will be added if and when they become publicly available.
+
+## Research themes
+
+- [Call combinations and sequence learning](../research/themes/call-combinations/)
+- [Identity: passive cue or active signal?](../research/themes/identity-cue-or-signal/)

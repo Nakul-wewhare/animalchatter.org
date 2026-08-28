@@ -1,7 +1,6 @@
 ---
-title: ""
-pagetitle: "About"
-description: "About Nakul Wewhare and the questions behind Animal Chatter."
+pagetitle: "About Nakul Wewhare"
+description: "Why Nakul Wewhare studies how animals communicate, and how that broad question becomes research on vocal interaction, learning, and bioacoustics."
 page-layout: full
 toc: false
 ---
@@ -12,32 +11,74 @@ toc: false
 About Nakul
 :::
 
-# Listening for structure in social life
+# Why I study how animals “talk” to each other
 
-I am a PhD student in Ecology and Evolutionary Biology at Princeton University. I study how animals learn, organize, and use vocal signals—and what those signals reveal about identity, relationships, and coordination.
+The simplest description of my scientific interest is that I want to understand how animals “talk” to each other: what they communicate, how a signal is directed to a particular partner, what changes when calls are combined, and how individuals learn the vocal patterns of a pair or group.
 
-My work brings together animal communication, bioacoustics, vocal learning, social behaviour, and quantitative approaches to vocal sequences.
+I use *talk* as a broad, informal term rather than a claim that animal communication is equivalent to human language. A longer-term hope is that an experimentally grounded account of another species' communication system could support a limited form of interspecies communication. Current research remains far from a genuine conversation, but several component questions are increasingly tractable: who produced a signal, who responded, which features vary with social context, and whether manipulating those features changes receiver responses.
 
 ::: {.cta-row}
 [Download my CV](../cv/Nakul_Wewhare_CV.pdf){.btn .btn-primary}
-[See my research](../research/){.btn .btn-outline-primary}
+[Research programme](../research/){.btn .btn-outline-primary}
 :::
 :::
 
 ::: {.visual-hero__media}
-::: {.visual-hero__placeholder}
-::: {.visual-hero__placeholder-label}
-Reserved for a portrait or field photograph that shows the person and work behind the research.
+```{=html}
+<img class="visual-hero__image visual-hero__image--panama-talk"
+     src="../assets/images/panama-2026/stri-talk.jpg"
+     alt="Nakul Wewhare presents research on common vampire bats at a seminar in Panama."
+     decoding="async"
+     fetchpriority="high">
+```
 :::
-:::
+
+::: {.visual-hero__credit}
+Speaking about vampire-bat research at a behaviour-group seminar in the Smithsonian Tropical Research Institute's Tupper building, Panama.
 :::
 :::
 
-## The questions that connect my work
+## Research questions
 
-I am especially interested in how vocal sequences encode identity, social relationships, and coordination; how learned communication changes inside real social networks; and how quantitative methods can reveal structure beyond individual calls.
+Animal communication is structured across several levels: calls occur within sequences, responses depend on particular partners, and vocal behaviour can change through social learning. My work therefore addresses both **the information represented in vocal interactions** and **the validity of the methods used to infer that information**.
 
-The [Research](../research/) pages introduce current and past projects. The [Publications](../publications/) page collects formal outputs, while [Notes](../notes/) provides room to explain why a question matters, what happened during the work, and what I would like to explore next.
+::: {.feature-grid}
+::: {.feature-card}
+### Interactional and sequence structure
+
+How are vocal exchanges initiated and maintained? Does acoustic matching predict directed responses? How do order, repetition, and timing alter the information available to a receiver?
+:::
+
+::: {.feature-card}
+### Social learning and group conventions
+
+Do partners or groups converge in call structure or sequence organization? How do affiliation, dominance, audience, and social-network position affect vocal learning?
+:::
+
+::: {.feature-card}
+### Individual identity: signal or cue
+
+Which acoustic correlates of caller identity arise incidentally from anatomy, and which are learned or maintained because receivers use them as identity signals?
+:::
+:::
+
+## Why bats
+
+Bats are a strong comparative system because both perception and vocal production are highly specialized for acoustic behaviour, while their social communication remains less well characterized than echolocation. Common vampire bats are particularly useful because their cooperative behaviour, reciprocity, kinship, and long-term social relationships provide an unusually detailed behavioural framework for interpreting vocal interactions.
+
+My doctoral research investigates vocal matching near the onset of calling bouts, non-random call combinations, population and group variation, and the potential social learning of sequence conventions. These are active analyses and experiments; proposed functions are presented as hypotheses and are separated from descriptive or correlational evidence.
+
+## The path into these questions
+
+Earlier work with budgerigars examined vocal learning within dynamic social networks and sequence organization beyond individual notes. Research with common marmosets then tested whether newly formed pairs converge in vocal-sequence structure across audience conditions. I now extend these questions to vampire bats while continuing comparative work across birds and primates.
+
+## How I think about methods
+
+Every acoustic representation emphasizes some dimensions of signal variation and suppresses others. LFCCs, MFCCs, spectro-temporal measurements, dynamic time warping, and variational autoencoders can therefore produce different similarity structures. I compare representations and validation criteria to determine which biological inferences are robust to these analytical choices.
+
+Separately, I am evaluating whether distributional models adapted from natural-language processing can recover functional relationships among discrete call types from sequence context. Simulation provides a controlled test of representation recovery; empirical validation requires comparison with independently annotated behaviour and receiver responses. This distinction is important: an acoustic space represents similarity in signal structure, whereas a contextual embedding represents similarity in patterns of use.
+
+The [Research](../research/) section links these questions to specific datasets and projects. [Publications](../publications/) lists formal research outputs, and the [Blog](../notes/) contains field reports, analysis updates, methods notes, and literature syntheses.
 
 ## Elsewhere
 
@@ -61,22 +102,90 @@ The [Research](../research/) pages introduce current and past projects. The [Pub
 :::
 
 ::: {.feature-card}
-### Affiliation
+### Carter Lab
 
-Princeton University<br>
-Department of Ecology and Evolutionary Biology
+[Vampire-bat communication, cooperation, and social cognition](https://socialbat.org/) at Princeton EEB.
 :::
 :::
 
 ::: {.collaboration-cta}
 ::: {.collaboration-cta__content}
-## Let us compare ideas
+## Something here catch your attention?
 
-If you are thinking about similar questions, interested in using or improving a tool, or see a connection between your work and mine, I would be happy to hear from you.
+Send me a note. I am always happy to talk about animal communication, exchange ideas, help where I can, or hear about a dataset or method you are excited about. The idea can be early and the email can be short.
 :::
 
 ::: {.collaboration-cta__actions}
-[Contact me](../contact.qmd){.btn .btn-primary}
-[Read the latest notes](../notes/){.btn .btn-outline-primary}
+[Email me](mailto:nakul@princeton.edu){.btn .btn-primary}
+[Visit the blog](../notes/){.btn .btn-outline-primary}
+:::
+:::
+
+## The institutions that shaped my science
+
+My academic path is an important part of how I see myself as a scientist. I am now a PhD student in Princeton's Department of Ecology & Evolutionary Biology and a member of the Carter Lab. Before Princeton, the BS–MS programme at IISER Pune gave me the freedom to move across biology, mathematics, computation, and animal behaviour; my master's thesis research in the ECEB Lab at JNCASR turned that broad training into sustained work on social relationships and vocal learning.
+
+::: {.institution-grid .institution-grid--about-final}
+::: {.institution-card .institution-card--current}
+```{=html}
+<a class="institution-card__logo" href="https://eeb.princeton.edu/" aria-label="Princeton University Ecology and Evolutionary Biology">
+  <img src="../assets/images/institutions/princeton-university.png"
+       alt="Princeton University logo"
+       loading="lazy"
+       decoding="async"
+       width="3840"
+       height="2160">
+</a>
+```
+
+::: {.institution-card__body}
+[Current]{.institution-card__label}
+
+### [Princeton University](https://eeb.princeton.edu/)
+
+**PhD student · Ecology & Evolutionary Biology.** [Carter Lab](https://socialbat.org/) · advised by [Gerald G. Carter](https://eeb.princeton.edu/people/gerald-g-carter) · 2025–present
+:::
+:::
+
+::: {.institution-card .institution-card--iiser}
+```{=html}
+<a class="institution-card__logo" href="https://www.iiserpune.ac.in/" aria-label="IISER Pune">
+  <img src="../assets/images/institutions/iiser-pune.png"
+       alt="IISER Pune logo"
+       loading="lazy"
+       decoding="async"
+       width="1080"
+       height="1080">
+</a>
+```
+
+::: {.institution-card__body}
+[Scientific training]{.institution-card__label}
+
+### [IISER Pune](https://www.iiserpune.ac.in/)
+
+**BS–MS Dual Degree · Biology.** Interdisciplinary undergraduate and master's training · 2020–2025
+:::
+:::
+
+::: {.institution-card .institution-card--jncasr}
+```{=html}
+<a class="institution-card__logo" href="https://www.jncasr.ac.in/" aria-label="Jawaharlal Nehru Centre for Advanced Scientific Research">
+  <img src="../assets/images/institutions/jncasr.png"
+       alt="JNCASR logo"
+       loading="lazy"
+       decoding="async"
+       width="200"
+       height="200">
+</a>
+```
+
+::: {.institution-card__body}
+[Master's thesis research]{.institution-card__label}
+
+### [JNCASR](https://www.jncasr.ac.in/)
+
+**[ECEB Lab](https://sites.google.com/view/eceb-lab) · Evolutionary and Organismal Biology Unit.** Budgerigar social networks and vocal learning · supervised by Anand Krishnan · 2024–2025
+:::
 :::
 :::

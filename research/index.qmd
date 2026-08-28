@@ -1,5 +1,6 @@
 ---
-title: Research
+pagetitle: Research
+description: "Six connected research themes in social vocal communication, sequence structure, vocal learning, bioacoustics, and behaviour."
 page-layout: full
 toc: false
 listing:
@@ -11,6 +12,136 @@ listing:
   sort-ui: false
 ---
 
-My research asks how complex vocal behaviour is shaped by learning, social structure, and interaction. I work across birds and primates, combining behavioural observation, acoustic analysis, quantitative modeling, and experimental design.
+::: {.research-program-hero}
+::: {.research-program-hero__copy}
+::: {.eyebrow}
+Research programme
+:::
 
-The project pages below are written to be readable both for collaborators in neighbouring fields and for visitors who are encountering this work for the first time.
+# A comparative programme in social vocal communication
+
+I study how animals initiate vocal exchanges, organize calls into sequences, acquire group-specific structure, and encode social information. Vampire-bat communication is the principal system for my doctoral research; earlier and ongoing work with marmosets, budgerigars, other parrots, and free-ranging dogs provides comparative evidence and methodological foundations.
+
+The six themes below describe linked levels of analysis. Together they connect an acoustic event to the identity of its producer, its position within a sequence, the social and behavioural context in which it occurs, and experiments that can test its function.
+:::
+
+::: {.research-program-hero__index aria-label="Six research themes"}
+`01` **Exchange**<br>
+`02` **Combination**<br>
+`03` **Representation**<br>
+`04` **Laws**<br>
+`05` **Behaviour**<br>
+`06` **Identity**
+:::
+:::
+
+## Research themes
+
+::: {.theme-grid}
+::: {.theme-card}
+::: {.theme-card__number}
+01
+:::
+
+### [Vocal matching and exchange initiation](themes/vocal-matching/)
+
+I test whether acoustic similarity between consecutive callers predicts response probability, whether the association is concentrated at the onset of calling bouts, and whether playback can distinguish directed matching from general response biases.
+
+[Vocal matching & directed exchanges →](themes/vocal-matching/)
+:::
+
+::: {.theme-card}
+::: {.theme-card__number}
+02
+:::
+
+### [Call combinations and sequence learning](themes/call-combinations/)
+
+I examine non-random call transitions, repetition, and higher-order sequence structure; test whether combinations predict behavioural context; and investigate whether sequence conventions converge within social groups.
+
+[Call combinations & sequence learning →](themes/call-combinations/)
+:::
+
+::: {.theme-card}
+::: {.theme-card__number}
+03
+:::
+
+### [Constructing and validating acoustic spaces](themes/acoustic-spaces/)
+
+I compare acoustic features, temporal distance measures, learned representations, dimensionality reduction, and clustering procedures. The central question is whether biological conclusions are robust to how acoustic similarity is represented and validated.
+
+[Acoustic-space construction and validation →](themes/acoustic-spaces/)
+:::
+
+::: {.theme-card}
+::: {.theme-card__number}
+04
+:::
+
+### [Linguistic laws and informative deviations](themes/linguistic-laws/)
+
+I evaluate proposed compression and efficiency laws as statistical hypotheses. Systematic deviations may identify vocal elements for which redundancy, identity information, or interactional function outweighs signal economy.
+
+[Linguistic laws & meaningful exceptions →](themes/linguistic-laws/)
+:::
+
+::: {.theme-card}
+::: {.theme-card__number}
+05
+:::
+
+### [Mapping bat social calls to behaviour](themes/mapping-bat-social-calls/)
+
+Acoustic localization and synchronized video permit calls to be assigned to individuals and aligned with recipient behaviour, spatial configuration, and ongoing social interactions.
+
+[Mapping the social repertoire →](themes/mapping-bat-social-calls/)
+:::
+
+::: {.theme-card}
+::: {.theme-card__number}
+06
+:::
+
+### [Individual identity: cue or signal?](themes/identity-cue-or-signal/)
+
+Vocalizations may reveal identity as a by-product of anatomical variation, or individuals may learn and maintain vocal structures that function as identity signals. I am developing criteria that distinguish these alternatives.
+
+[Passive cues & active identity signals →](themes/identity-cue-or-signal/)
+:::
+:::
+
+## Related computational project
+
+::: {.feature-card .feature-card--project}
+::: {.status-badge .status-badge--developing}
+Method development · simulation and empirical validation
+:::
+
+### [Contextual embeddings for vocal sequences](../projects/contextual-embeddings-vocal-sequences.qmd)
+
+This project is analytically distinct from constructing an acoustic space. It tests whether distributional models such as word2vec can recover relationships among discrete call types from their sequence contexts. Simulations establish the conditions under which the embedding is identifiable; the empirical test will compare model-derived relationships with independently annotated social and behavioural contexts.
+
+[Project rationale, simulations, and validation plan →](../projects/contextual-embeddings-vocal-sequences.qmd)
+:::
+
+## How the projects connect
+
+The project pages describe the datasets, experimental designs, publications, and ongoing analyses that support these themes. Individual projects often contribute to several themes: the marmoset study links sequence learning, audience effects, acoustic representation, and identity, while the current vampire-bat work connects vocal matching, call combinations, behavioural context, and representation choice.
+
+::: {.collaboration-cta}
+::: {.collaboration-cta__content}
+## Interested in these questions too?
+
+I am always happy to hear from people working with longitudinal bat recordings, behavioural annotation, playback experiments, acoustic representation, social learning, or computational models of vocal sequences. Send me a short email if you want to exchange ideas or think through something together.
+:::
+
+::: {.collaboration-cta__actions}
+[Email me](mailto:nakul@princeton.edu){.btn .btn-primary}
+[Methods and resources](../methods/){.btn .btn-outline-primary}
+:::
+:::
+
+## Projects and papers
+
+Status labels distinguish peer-reviewed articles, public preprints, completed theses, manuscripts in preparation, and active analyses. Preliminary results are identified explicitly and should be interpreted in light of the stated sample, model, and validation limitations.

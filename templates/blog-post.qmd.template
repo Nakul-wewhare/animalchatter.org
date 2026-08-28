@@ -1,0 +1,33 @@
+---
+title: "[POST TITLE]"
+description: "[ONE SENTENCE SAYING WHAT THE POST IS ABOUT]"
+date: YYYY-MM-DD
+categories: [PRIMARY CATEGORY, TOPIC]
+# Optional: remove the # and add the files when you have a feature image.
+# image: featured.jpg
+# image-alt: "[DESCRIBE THE IMAGE FOR SOMEONE WHO CANNOT SEE IT]"
+toc: true
+draft: true
+---
+
+<!--
+Choose one primary category exactly as written:
+Field Notes | Project Updates | Reading Syntheses | Methods & Tools
+
+Delete every instruction in square brackets before publishing.
+-->
+
+[Open with two or three sentences: what you worked on, what question motivated
+it, and why you wanted to share this update.]
+
+## What I worked on
+
+[Describe the experiment, fieldwork, analysis, paper, or tool.]
+
+## What I found or learned
+
+[Share the main observation or idea. Say clearly if a result is preliminary.]
+
+## What comes next
+
+[Add the next step, an open question, or a link to the related project.]

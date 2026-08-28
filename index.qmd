@@ -1,135 +1,311 @@
 ---
-title: ""
+pagetitle: "Nakul Wewhare"
+description: "Nakul Wewhare studies how animals communicate with social partners through calls, sequences, vocal learning, and interaction."
 page-layout: full
 toc: false
 ---
 
-::: {.visual-hero .visual-hero--data}
-::: {.visual-hero__content}
-::: {.visual-hero__kicker}
-Animal Chatter
+::: {.home-split-hero}
+::: {.home-split-hero__copy}
+::: {.eyebrow}
+Nakul Wewhare · Animal Chatter
 :::
 
-# Nakul Wewhare
+# Understanding how animals “talk” to each other
 
-I am a PhD student in Ecology and Evolutionary Biology at Princeton University studying how animals learn, structure, and use vocal signals in social life.
+I study what animals communicate, how they direct calls to particular partners, how the information available to receivers may change when calls are combined, and how vocal behaviour is learned. My doctoral research uses vampire bats to investigate these questions through field recordings, behavioural experiments, and computational bioacoustics.
 
-My work sits at the intersection of bioacoustics, animal communication, vocal learning, and social behaviour. I am especially interested in how vocal sequences encode identity, social relationships, and coordination.
+::: {.hero-affiliation aria-label="Current academic affiliation"}
+```{=html}
+<a class="hero-affiliation__logo" href="https://eeb.princeton.edu/" aria-label="Princeton University Ecology and Evolutionary Biology">
+  <img src="assets/images/institutions/princeton-university.png"
+       alt="Princeton University logo"
+       width="3840"
+       height="2160">
+</a>
+```
+
+::: {.hero-affiliation__body}
+**PhD student · Ecology & Evolutionary Biology** · [Princeton University EEB](https://eeb.princeton.edu/) · [Carter Lab](https://socialbat.org/) · 2025–present
+:::
+:::
 
 ::: {.cta-row}
-[Explore research](research/){.btn .btn-primary .btn-hero}
-[Read the notes](notes/){.btn .btn-outline-primary}
-[Work with me](contact.qmd){.btn .btn-outline-secondary}
-:::
-
-::: {.pill-row}
-`bioacoustics`
-`animal communication`
-`vocal learning`
-`social networks`
-`sequence structure`
+[Research programme](research/){.btn .btn-primary .btn-hero}
+[Blog](notes/){.btn .btn-outline-primary}
+[Contact](contact.qmd){.btn .btn-outline-secondary}
 :::
 :::
 
-::: {.visual-hero__media}
-::: {.visual-hero__placeholder}
-::: {.visual-hero__placeholder-label}
-Reserved for a field photograph, animated spectrogram, or interactive vocal exchange from the research.
+::: {.home-split-hero__media}
+::: {.home-split-hero__stage}
+```{=html}
+<video id="hero-acoustic-video"
+       class="home-split-hero__video"
+       muted
+       loop
+       playsinline
+       preload="metadata"
+       poster="assets/media/bats/vampire-bat-vocal-matching-poster.jpg"
+       aria-label="Animated LFCC–UMAP trajectories of calls exchanged by three vampire bats."
+       aria-describedby="hero-acoustic-description">
+  <source src="assets/media/bats/vampire-bat-vocal-matching.mp4" type="video/mp4">
+  Your browser does not support embedded video. The explanation below describes the visualization.
+</video>
+
+<button class="hero-video-toggle"
+        type="button"
+        data-hero-video-toggle
+        aria-controls="hero-acoustic-video"
+        aria-pressed="false"
+        hidden>Pause animation</button>
+```
+:::
+
+::: {#hero-acoustic-description .home-split-hero__caption}
+**Vocal trajectories from three interacting bats.** Each coloured trajectory represents one individual's calls in a two-dimensional UMAP projection of LFCC features; the spectrogram panels display the calls currently represented.
+
+Spatial proximity represents similarity in the selected acoustic feature space, not physical proximity between animals. Under a vocal-matching hypothesis, responses should occur nearer to the preceding caller's vocalization than expected under an appropriate null model. This visualization is exploratory and is not itself a statistical test.
 :::
 :::
 :::
+
+## From animal conversations to testable questions
+
+“How do animals talk to each other?” is the simple question behind my research. I use *talk* as an accessible shorthand, not as an assumption that animal communication works like human language. The scientific questions are more specific: who produces a signal, who responds, what information the signal carries, how sequences change its interpretation, and what animals can learn from one another.
+
+A longer-term hope is that sufficiently detailed knowledge of another species' communication system might eventually support a limited but meaningful form of interspecies communication. We are not there yet. But biologging, acoustic localization, thermal imaging, behavioural experiments, and computational analysis now let us study vocal exchanges at much finer temporal, spatial, and social scales than was previously possible.
+
+## Six connected research themes
+
+These questions recur across my work on bats, marmosets, parrots, and free-ranging dogs. Each theme page presents the relevant hypotheses, evidence, current limitations, and planned analyses or experiments.
+
+::: {.feature-grid .research-theme-grid}
+::: {.feature-card .research-theme-card}
+::: {.eyebrow}
+01 · Vocal matching
 :::
 
-## Research at a Glance
+### [Vocal matching and exchange initiation](research/themes/vocal-matching/)
 
-::: {.feature-grid}
-::: {.feature-card}
-### Current Base
-
-Princeton University  
-Department of Ecology and Evolutionary Biology
+I test whether acoustic matching at the onset of a calling bout predicts which vampire bat responds, and whether the pattern is specific to particular call types or interactional contexts.
 :::
 
-::: {.feature-card}
-### Research Themes
-
-Vocal learning, social coordination, and the structure of animal vocal sequences.
+::: {.feature-card .research-theme-card}
+::: {.eyebrow}
+02 · Call combinations
 :::
 
-::: {.feature-card}
-### What You Will Find Here
+### [Call combinations and sequence learning](research/themes/call-combinations/)
 
-Research stories, project updates, papers, open methods, learning resources, and field notes.
+I examine how call order, repetition, and timing structure vocal sequences, whether combinations predict behavioural context, and whether sequence organization is socially learned.
+:::
+
+::: {.feature-card .research-theme-card}
+::: {.eyebrow}
+03 · Acoustic spaces
+:::
+
+### [Constructing and validating acoustic spaces](research/themes/acoustic-spaces/)
+
+I compare feature extraction, distance metrics, dimensionality reduction, and validation procedures to determine which biological inferences are robust to the construction of an acoustic space.
+:::
+
+::: {.feature-card .research-theme-card}
+::: {.eyebrow}
+04 · Statistical structure
+:::
+
+### [Linguistic laws and informative deviations](research/themes/linguistic-laws/)
+
+I use proposed efficiency laws as statistical hypotheses and ask whether systematic deviations identify vocal elements whose redundancy may have a specific communicative function.
+:::
+
+::: {.feature-card .research-theme-card}
+::: {.eyebrow}
+05 · Sound and behaviour
+:::
+
+### [Mapping bat social calls to behaviour](research/themes/mapping-bat-social-calls/)
+
+Acoustic localization and synchronized video allow calls to be associated with callers, recipients, behavioural events, and the temporal structure of an interaction.
+:::
+
+::: {.feature-card .research-theme-card}
+::: {.eyebrow}
+06 · Vocal identity
+:::
+
+### [Individual identity: cue or signal?](research/themes/identity-cue-or-signal/)
+
+I investigate how to distinguish incidental anatomical cues to caller identity from learned vocal structures that function as identity signals.
 :::
 :::
 
-## Featured Work
-
-::: {.feature-grid}
-::: {.feature-card}
-### [Social Networks and Vocal Learning in Budgerigars](projects/social-networks-and-vocal-learning.qmd)
-
-My master's thesis asks how fission-fusion dynamics and social-network position shape changes in vocal repertoires through time.
+::: {.cta-row}
+[Research programme and projects](research/){.btn .btn-outline-primary}
 :::
 
-::: {.feature-card}
-### [Sequence-Level Vocal Convergence in Common Marmosets](projects/marmoset-vocal-convergence.qmd)
-
-This project develops sequence-comparison methods to quantify syntactic convergence and accommodation in a social primate.
+::: {.feature-card .feature-card--project}
+::: {.eyebrow}
+Related computational project · distinct from Theme 3
 :::
 
-::: {.feature-card}
-### [Parrot Vocal Sequences Across Species](projects/parrot-vocal-sequences.qmd)
+### [Contextual embeddings for vocal sequences](projects/contextual-embeddings-vocal-sequences.qmd)
 
-Comparative work on parrots explores repetition, sequence structure, and higher-order organization in complex vocal displays.
-:::
+Acoustic spaces describe similarity in signal structure. Contextual embedding models address a different question: whether the distribution of call types across sequences contains information about their functional relationships. I am using simulation to evaluate representation recovery before applying these models to vampire-bat sequences with independent behavioural annotations.
+
+[Methods, simulations, and validation criteria →](projects/contextual-embeddings-vocal-sequences.qmd)
 :::
 
-## Visual Stories
+## Current project
+
+::: {.feature-card .feature-card--project}
+::: {.status-badge .status-badge--active}
+Current PhD work
+:::
+
+### [Vocal matching during vampire-bat exchanges](projects/vampire-bat-vocal-matching.qmd)
+
+Across pair and trio recordings, I am testing whether acoustic similarity predicts response probability near the onset of a calling bout, which call types contribute to the association, and whether playback experiments can distinguish directed addressing from a general response bias. Preliminary results, sample sizes, and inferential limitations are reported on the project page.
+
+[Project methods and preliminary results →](projects/vampire-bat-vocal-matching.qmd)
+:::
+
+## Acoustic representation in practice
 
 ::: {.data-centerpiece}
 ::: {.data-centerpiece__header}
-## Explore a vocal interaction
+## From a continuous acoustic space to candidate call categories
 
-This full-width stage is ready for a zoomable plot, animated vocal network, synchronized spectrogram, or short field video.
-:::
-
-::: {.data-centerpiece__stage}
-::: {.interactive-figure__placeholder}
-::: {.interactive-figure__placeholder-label}
-Interactive research centerpiece — sample media will be selected together.
-:::
-:::
+This recording displays a vampire-bat repertoire as a continuous LFCC–UMAP projection and then overlays a provisional categorical annotation. The spectrogram of the selected call remains visible at right.
 :::
 
-::: {.data-centerpiece__caption}
-**Designed for exploration.** Visitors will be able to zoom, hover, listen, or follow changes through time without leaving the project story.
+::: {.data-centerpiece__stage .data-centerpiece__stage--video}
+```{=html}
+<video class="data-centerpiece__video"
+       controls
+       playsinline
+       preload="metadata"
+       poster="assets/media/bats/vampire-bat-acoustic-repertoire-poster.jpg"
+       aria-label="Vampire-bat calls organized into a continuous acoustic space and exploratory call categories."
+       aria-describedby="repertoire-video-description">
+  <source src="assets/media/bats/vampire-bat-acoustic-repertoire.mp4" type="video/mp4">
+  Your browser does not support embedded video. The caption below describes the visualization.
+</video>
+```
+:::
 
-Every centerpiece will also include a plain-language explanation, a static fallback, and clear labels when results are preliminary.
+::: {#repertoire-video-description .data-centerpiece__caption}
+**Interpretation.** Each point is a call represented by LFCC features and projected into two dimensions with UMAP. The colouring changes from caller identity to provisional call-type labels.
+
+**Analytical status.** UMAP is useful for visualizing local structure but does not preserve all pairwise distances or global geometry. The labelled regions are working classifications that require validation against acoustics, observer reliability, behaviour, and out-of-sample data. An interactive version is in development.
 :::
 :::
 
-## Notes from the Work
+## The institutions that shaped my science
+
+I am proud to be a Princeton EEB PhD student in the Carter Lab. The way I approach animal behaviour was first shaped by the interdisciplinary BS–MS programme at IISER Pune and by my master's thesis research in the ECEB Lab at JNCASR.
+
+::: {.institution-grid}
+::: {.institution-card .institution-card--current}
+```{=html}
+<a class="institution-card__logo" href="https://eeb.princeton.edu/" aria-label="Princeton University Ecology and Evolutionary Biology">
+  <img src="assets/images/institutions/princeton-university.png"
+       alt="Princeton University logo"
+       loading="lazy"
+       decoding="async"
+       width="3840"
+       height="2160">
+</a>
+```
+
+::: {.institution-card__body}
+[Current]{.institution-card__label}
+
+### [Princeton University](https://eeb.princeton.edu/)
+
+**PhD student · Ecology & Evolutionary Biology.** [Carter Lab](https://socialbat.org/) · advised by [Gerald G. Carter](https://eeb.princeton.edu/people/gerald-g-carter) · 2025–present
+:::
+:::
+
+::: {.institution-card .institution-card--iiser}
+```{=html}
+<a class="institution-card__logo" href="https://www.iiserpune.ac.in/" aria-label="IISER Pune">
+  <img src="assets/images/institutions/iiser-pune.png"
+       alt="IISER Pune logo"
+       loading="lazy"
+       decoding="async"
+       width="1080"
+       height="1080">
+</a>
+```
+
+::: {.institution-card__body}
+[Scientific training]{.institution-card__label}
+
+### [IISER Pune](https://www.iiserpune.ac.in/)
+
+**BS–MS Dual Degree · Biology.** Interdisciplinary undergraduate and master's training · 2020–2025
+:::
+:::
+
+::: {.institution-card .institution-card--jncasr}
+```{=html}
+<a class="institution-card__logo" href="https://www.jncasr.ac.in/" aria-label="Jawaharlal Nehru Centre for Advanced Scientific Research">
+  <img src="assets/images/institutions/jncasr.png"
+       alt="JNCASR logo"
+       loading="lazy"
+       decoding="async"
+       width="200"
+       height="200">
+</a>
+```
+
+::: {.institution-card__body}
+[Master's thesis research]{.institution-card__label}
+
+### [JNCASR](https://www.jncasr.ac.in/)
+
+**[ECEB Lab](https://sites.google.com/view/eceb-lab) · Evolutionary and Organismal Biology Unit.** Budgerigar social networks and vocal learning · 2024–2025
+:::
+:::
+:::
+
+## From the blog
+
+::: {.media-gallery .media-gallery--feature}
+::: {.gallery-item .gallery-item--full .gallery-item--wide}
+```{=html}
+<a href="blog/posts/2026-08-28-panama-field-season/">
+  <img class="gallery-item__media"
+       src="assets/media/panama-2026/gatun-lake-boat-poster.jpg"
+       alt="Sunrise glows above rippling water and forested shores on Gatun Lake near Gamboa."
+       loading="lazy"
+       decoding="async">
+</a>
+```
+
+::: {.gallery-item__caption}
+[Field Note]{.note-chip .note-chip--field}
+
+### [Panama 2026: field recording, caller localization, and acoustic analysis](blog/posts/2026-08-28-panama-field-season/)
+
+An account of the 2026 field season, including recording logistics, caller localization, and the relationship between field context and subsequent acoustic analysis.
+[Gatun Lake, Panama · 2026]{.gallery-item__credit}
+:::
+:::
+:::
 
 ::: {.feature-grid}
-::: {.feature-card}
-::: {.note-chip .note-chip--field}
-Field notes
-:::
-
-### Field seasons and observations
-
-Photo-rich accounts of places, methods, animals, and the questions that emerge while collecting data.
-:::
-
 ::: {.feature-card}
 ::: {.note-chip .note-chip--project}
 Project updates
 :::
 
-### Research in progress
+### Project updates
 
-Dated reports on current analyses, developing ideas, and questions where feedback would be useful.
+Dated records of analyses in progress, revisions to working hypotheses, unresolved methodological decisions, and specific questions for feedback.
 :::
 
 ::: {.feature-card}
@@ -137,35 +313,42 @@ Dated reports on current analyses, developing ideas, and questions where feedbac
 Reading syntheses
 :::
 
-### Thinking through the literature
+### Literature syntheses
 
-Short syntheses of papers, points of disagreement, useful methods, and open questions.
+Concise syntheses of related studies, methodological disagreements, evidential limitations, and open research questions.
 :::
 :::
 
 ::: {.cta-row}
-[Browse all notes](notes/){.btn .btn-primary}
+[Visit the blog](notes/){.btn .btn-primary}
 :::
 
-## Open Methods
+## Methods and resources
 
 ::: {.feature-grid}
 ::: {.feature-card}
 ### [Open Tools](methods/tools/)
 
-Bioacoustics scripts, workflows, examples, documentation, and clear information about reuse and collaboration.
+Bioacoustic analysis scripts and workflows with reproducible examples, validation notes, documentation, licensing, and citation guidance.
 :::
 
 ::: {.feature-card}
 ### [Learning Resources](methods/resources/)
 
-A curated route into tutorials, useful packages, practical workflows, and recommended methods papers.
+An annotated collection of tutorials, software, practical workflows, and methods papers for bioacoustics and vocal-sequence analysis.
 :::
 :::
 
 ## Selected Publications
 
 ::: {.publication-stack}
+::: {.publication-entry}
+#### Sequence-level vocal convergence in common marmosets
+
+*bioRxiv* preprint (2026), with Judith M. Burkart and Kaja Wierucka.\
+[Preprint](https://doi.org/10.64898/2026.03.20.713272).
+:::
+
 ::: {.publication-entry}
 #### Individual-specific associations between warble song notes and body movements in budgerigar courtship displays
 
@@ -174,30 +357,38 @@ A curated route into tutorials, useful packages, practical workflows, and recomm
 :::
 
 ::: {.publication-entry}
-#### Higher-order dialect variation and syntactic convergence in the complex warble song of budgerigars
+#### Higher-order dialectic variation and syntactic convergence in the complex warble song of budgerigars
 
-*Journal of Experimental Biology* (2023), with A. J. J. Madabhushi, P. Binwal, V. Agarwal, and Anand Krishnan.  
+*Journal of Experimental Biology* (2023), with A. J. Madabhushi, P. Binwal, V. Agarwal, and Anand Krishnan.\
 [Paper](https://doi.org/10.1242/jeb.245678).
 :::
 :::
 
-## What You Can Use This Site For
+::: {.cta-row}
+[View all publications](publications/){.btn .btn-outline-primary}
+:::
 
-- Browse research projects without digging through a CV.
-- Understand why a project or paper was worth pursuing.
-- Follow field notes, project updates, and reading syntheses.
-- Find publication links, open tools, and learning resources.
-- Download a [current PDF CV](cv/Nakul_Wewhare_CV.pdf).
+## Site contents
+
+- Research themes, hypotheses, and project-level evidence.
+- Peer-reviewed publications, preprints, and clearly labelled work in progress.
+- Field notes, analysis updates, and literature syntheses.
+- Open methods, reproducible tools, and annotated learning resources.
+- A [current PDF curriculum vitae](cv/Nakul_Wewhare_CV.pdf).
 
 ::: {.collaboration-cta}
 ::: {.collaboration-cta__content}
-## Interested in these ideas?
+## Want to talk about animal communication?
 
-I welcome conversations about animal communication, bioacoustics, vocal sequence analysis, tools, and possible collaborations.
+Send me an email. I am always happy to talk about animal communication, bioacoustics, a dataset, a method, or an idea that is still taking shape. You do not need a formal collaboration proposal—a short note about what caught your interest is plenty.
 :::
 
 ::: {.collaboration-cta__actions}
-[See current interests](research/){.btn .btn-primary}
-[Start a conversation](contact.qmd){.btn .btn-outline-primary}
+[Send me an email](mailto:nakul@princeton.edu){.btn .btn-primary}
+[See what I am working on](research/){.btn .btn-outline-primary}
 :::
 :::
+
+```{=html}
+<script src="assets/js/media-controls.js" defer></script>
+```

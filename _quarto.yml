@@ -1,6 +1,11 @@
 project:
   type: website
   output-dir: _site
+  render:
+    - "*.qmd"
+    - "**/*.qmd"
+  resources:
+    - "assets/**"
 
 website:
   title: "Animal Chatter"
@@ -16,7 +21,7 @@ website:
       - href: publications/index.qmd
         text: Publications
       - href: notes/index.qmd
-        text: Notes
+        text: Blog
       - text: Methods
         menu:
           - href: methods/index.qmd

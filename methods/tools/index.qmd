@@ -6,36 +6,40 @@ toc: false
 ---
 
 ::: {.eyebrow}
-Build openly, explain clearly
+Open bioacoustic software
 :::
 
-This will become a practical catalogue of the tools and workflows I make while working with animal sounds, behaviour, and sequence data. The first tool pages will be added after the site structure is approved.
+This section will catalogue software and reproducible workflows developed for acoustic, behavioural, and vocal-sequence data. A tool will be listed only when its scope, dependencies, example data, validation status, licence, and citation information are documented.
 
-## Every tool page will include
+::: {.status-badge .status-badge--developing}
+In progress · first releases coming soon
+:::
+
+## Documentation required for release
 
 ::: {.feature-grid}
 ::: {.feature-card}
-### The research problem
+### Analytical scope
 
-What the tool helps answer, who it is for, and when another approach may be better.
+The biological or computational question addressed, the intended input and output, and conditions under which a different method is preferable.
 :::
 
 ::: {.feature-card}
-### A small working example
+### Reproducible example
 
-Installation, example input, expected output, and enough context to try it without reading an entire codebase.
+Installation instructions, versioned dependencies, inspectable input data, expected output, and a complete minimal workflow.
 :::
 
 ::: {.feature-card}
-### Honest status
+### Validation and status
 
-An experimental, stable, or archived label; known limitations; the last meaningful update; and a version when appropriate.
+An experimental, stable, or archived designation; tests or validation evidence; known limitations; version information; and the date of the most recent substantive update.
 :::
 
 ::: {.feature-card}
-### Reuse and credit
+### Licence and citation
 
-An explicit software licence, citation guidance, source-code link, and instructions for reporting a problem.
+An explicit software licence, citation guidance, source repository, release archive where appropriate, and instructions for reporting reproducible problems.
 :::
 :::
 
@@ -45,13 +49,13 @@ Until an individual tool page displays a licence, treat that tool as not yet rel
 
 ::: {.collaboration-cta}
 ::: {.collaboration-cta__content}
-## Use freely; collaborate closely
+## Try the tools—or tell me what would help
 
-Released tools will be documented for independent use. If a tool overlaps with a question you care about—or you see a better way to build it—I would be glad to hear your idea.
+The tools will be free to use under their stated licences. If something breaks, if you test a workflow on another species, or if you have an idea that would make a tool more useful, please email me. I am especially happy to work closely when a technical problem grows out of a real research question.
 :::
 
 ::: {.collaboration-cta__actions}
-[Discuss an idea](../../contact.qmd){.btn .btn-primary}
+[Email me](mailto:nakul@princeton.edu){.btn .btn-primary}
 [Visit GitHub](https://github.com/Nakul-wewhare){.btn .btn-outline-primary}
 :::
 :::

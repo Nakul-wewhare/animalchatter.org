@@ -1,17 +1,14 @@
 ---
-title: Blog Archive
-page-layout: full
+title: Blog
+description: "Animal Chatter's blog has moved to its permanent home."
+page-layout: article
 toc: false
-listing:
-  contents: posts
-  sort: "date desc"
-  type: default
-  feed: true
-  categories: true
-  fields: [title, description, date, categories]
-  sort-ui: false
 ---
 
-The blog has grown into [Notes](../notes/): a public research notebook for field stories, project updates, reading syntheses, methods notes, and tool releases.
+## The blog has a new home
 
-This archive remains available so existing bookmarks and links continue to work. New entries appear here as well as on the Notes page.
+All field notes, project updates, reading syntheses, and methods posts now live on the [Animal Chatter Blog](../notes/){.no-external}.
+
+[Go to the Blog](../notes/){.btn .btn-primary .no-external}
+
+This page remains online so older links to `/blog/` do not break. Individual post addresses are unchanged.

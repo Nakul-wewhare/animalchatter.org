@@ -1,6 +1,6 @@
 ---
-title: Notes
-description: "Field stories, project updates, reading syntheses, methods notes, and open work from Animal Chatter."
+title: Blog
+description: "Field notes, project updates, reading syntheses, and practical bioacoustics methods from Nakul Wewhare."
 page-layout: full
 toc: false
 listing:
@@ -10,55 +10,58 @@ listing:
   feed: true
   categories: true
   fields: [image, title, description, date, categories]
+  filter-ui: true
   sort-ui: false
 ---
 
 ::: {.eyebrow}
-A public research notebook
+Notes from the work
 :::
 
-This is where field experiences, active projects, reading, and methods can be shared while they are still developing. Each note will make its status clear, distinguish preliminary ideas from finished results, and point to the related project or publication when one exists.
+I write here about field seasons, ongoing analyses, papers I am thinking through, and tools I am building. Work in progress is labelled clearly.
+
+## Browse the blog
 
 ::: {.feature-grid .note-type-grid}
 ::: {.feature-card}
 ::: {.note-chip .note-chip--field}
-Field Note
+Field Notes
 :::
 
-### Stories from fieldwork
+### From field seasons
 
-Place, purpose, methods, memorable observations, photographs, and what the experience changed in my thinking.
+Recording days, experiments, practical decisions, and life around the fieldwork.
 :::
 
 ::: {.feature-card}
 ::: {.note-chip .note-chip--project}
-Project Update
+Project Updates
 :::
 
-### Work in progress
+### From ongoing research
 
-What changed, what remains uncertain, and where outside feedback could move a project forward.
+New analyses, visualizations, useful problems, and questions that are still open.
 :::
 
 ::: {.feature-card}
 ::: {.note-chip .note-chip--reading}
-Reading Synthesis
+Reading Syntheses
 :::
 
-### Learning in public
+### From my reading
 
-Connections, disagreements, useful approaches, and open questions across the things I am reading.
+Short essays connecting papers, methods, disagreements, and ideas I want to remember.
 :::
 
 ::: {.feature-card}
 ::: {.note-chip .note-chip--methods}
-Methods Note
+Methods & Tools
 :::
 
-### Practical experiments
+### From the analysis desk
 
-Small workflows, analysis choices, tool demonstrations, and lessons that may help other researchers.
+Bioacoustics workflows, code, tutorials, diagnostics, and tools that may be useful to others.
 :::
 :::
 
-## Latest notes
+## Latest posts

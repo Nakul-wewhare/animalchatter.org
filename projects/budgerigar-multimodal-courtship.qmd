@@ -1,0 +1,40 @@
+---
+title: Song and Movement in Budgerigar Courtship
+description: "A peer-reviewed analysis of individual-specific associations between warble-song notes and movements during budgerigar courtship."
+date: 2024-10-21
+categories: [budgerigars, multimodal communication, courtship, individual variation]
+toc: true
+---
+
+::: {.status-badge}
+Peer-reviewed article · 2024
+:::
+
+## Study objective
+
+The study tests whether particular warble-song note types are associated with specific courtship movements and whether note–movement associations are shared across males or are individual specific.
+
+## Data and analysis
+
+The dataset comprised 100 courtship bouts from five males, including 19,934 annotated song notes and 2,154 courtship-related movements. Vocal and movement streams were represented as synchronized sequences to quantify associations between note types and behaviours including head movements, affiliative interactions, and mounting.
+
+Warble segments produced without concurrent body movements provided a comparison for testing whether note-type associations were specific to multimodal display contexts.
+
+## Results
+
+Some note–movement associations occurred across all sampled males, whereas others were shared by a subset of males or detected in only one individual. The resulting structure comprised population-level, subgroup-level, and individual-specific associations. In warble segments without body movement, note types had broadly similar occurrence probabilities.
+
+The paper proposes that variation in coordination may be learned or modified through social interaction. Because learning history was not experimentally manipulated, this explanation remains a hypothesis rather than a demonstrated mechanism.
+
+## Interpretation
+
+The results identify cross-modal coordination as an additional level of courtship-display organization. Individual-specific note–movement associations could contribute to receiver discrimination, but the study did not directly test what information receivers extract from these combinations.
+
+## Research themes
+
+- [Mapping calls back to behaviour](../research/themes/mapping-bat-social-calls/)
+- [Identity: passive cue or active signal?](../research/themes/identity-cue-or-signal/)
+
+## Paper and open materials
+
+Wewhare, N. and Krishnan, A. (2024). **Individual-specific associations between warble song notes and body movements in budgerigar courtship displays.** *Biology Open*, 13(10): bio060497. [Read the paper](https://doi.org/10.1242/bio.060497), browse the [analysis code](https://github.com/Nakul-wewhare/Budgerigar-courtship-display), or read the accompanying [First Person interview](https://doi.org/10.1242/bio.061701).
